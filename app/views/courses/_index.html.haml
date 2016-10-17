@@ -1,11 +1,78 @@
-.course-nav-wrapper
-  .wrapper-inside.clearfix
-    %ul.course-nav-list
-      - @courses.each do |course|
-        %li{class: "#{"active" if params["course_id"].to_i== course.id}"}
-          = link_to new_registration_path(course_id: course.id), class: "ruby" do
-            .course-name
-              = course.name
+!!!
+%html
+  %body
+    .header
+      .container
+        %svg{:preserveaspectratio => "xMinYMin meet", :viewbox => "0 0 615 615"}
+          %defs
+            %lineargradient#MyGradient
+              %stop{:offset => "5%", "stop-color" => "#3E61FF"}
+              %stop{:offset => "95%", "stop-color" => "#20DCF6"}
+          %path{:d => "M0,225 C275,250 425,215 615,225 L615,00 L0,0 Z", :fill => "url(#MyGradient)", :style => "stroke: none;"}
+      .center-logo
+        .logo.animated.fadeInDown
+      .center-ticket
+        .ticket.animated.fadeInUp
+          %a.btn-ghost.btn-reg{:href => "#pricing"} Get Your Ticket
+    .content
+      %section.intro
+        .wrapper
+          .anchor-icon.animated.fadeIn
+          .intro-text.animated.fadeIn
+            %h3 More ahoy than ever before
+            .intro-paragraph
+              %p This is your opportunity to take to the river and let your hair down. Ahoy is an annual event that takes place aboard the houseboats of the hawkesbury river.
+              %p Lorem ipsum dolor sit amet lorem ipsum dolor sit. ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit. ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          .intro-video.animated.fadeIn
+            %iframe{:allowfullscreen => "", :frameborder => "0", :height => "275", :src => "https://www.youtube.com/embed/986ONovL2e0", :width => "449"}
+      %section.details
+        .wrapper
+          .heading
+            %h3 Details
+          .dates
+            .dates-icon
+            %h6 Dates:
+            %p 2nd - 4th December
+          .location
+            .location-icon
+            %h6 Location:
+            %p Hawkesbury River
+            %h5 Boarding from Brooklyn
+          .crew
+            .crew-icon
+            %h6 Crew:
+            %p 34 People
+      %section.whats-on
+        .wrapper
+          .heading
+            %h3 What's on this year?
+          %ul.whats-on-items
+            %li.item
+              %h6 Teams
+              %p Introducing Teams. This year you'll be competing against your boat rivals. With three boats in the 24ahoy fleet, your team will face-off with your rivals for the glory of being crowned champions.
+            %li.item
+              %h6 The Arena
+              %p The arena is a 5 metre inflatable trampoline. Enter the arena and win points for your team by competing in different contests. The Arena King will be crowned by the end of the weekend.
+            %li.item
+              %h6 Subheading
+              %p Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing
+            %li.item
+              %h6 Return of the swan
+              %p Inflatables er'where. The swan will be making his comeback with some new friends. We’ll be rafting up on the water, so bring any pool toys or inflatable animals you might own.
+      %section.tickets
+        .wrapper
+          .heading
+            %h3 Tickets
+          .ticket-types
+            .day-pass.animated.fadeIn
+              %h6 Day Pass
+              %h1 $65
+              %ul.course-nav-list
+                - @courses.each do |course|
+                  %li{class: "#{"active" if params["course_id"].to_i== course.id}"}
+                    = link_to new_registration_path(course_id: course.id), class: "ruby" do
+                      .course-name
+                        = course.name
 
-            %button.btn{style: "color: white;background: rgb(242, 118, 73);"} Register ($#{course.price})
-            .course-arrow
+                      %button.btn{style: "color: white;background: rgb(242, 118, 73);"} Register ($#{course.price})
+                      .course-arrow

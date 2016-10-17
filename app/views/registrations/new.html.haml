@@ -1,27 +1,31 @@
-%section#course-content
-  %section#ruby
-    %section.detailed-syllabus
-      .wrapper-inside
-        = form_for @registration, html: { class: "basic-grey" } do |f|
-          - if @registration.errors.any?
-            #error_explanation
-              %h2
-                = pluralize(@registration.errors.count, "error")
-                prohibited this registration from being saved:
-              %ul
-                - @registration.errors.full_messages.each do |message|
-                  %li= message
-          .field
-            = f.hidden_field :course_id, value: @course.id
-          .field
-            = f.label :full_name
-            = f.text_field :full_name
-          .field
-            = f.label :company
-            = f.text_field :company
-          .field
-            = f.label :telephone
-            = f.text_field :telephone
-          .actions
-            %script.stripe-button{ src: "https://checkout.stripe.com/checkout.js",
-                  data: {amount: @course.price*100, description: @course.name, key: Rails.application.secrets.stripe_publishable_key}}
+%section.detailed-syllabus
+  .wrapper-inside
+    = form_for @registration, html: { class: "basic-grey" } do |f|
+      - if @registration.errors.any?
+        #error_explanation
+          %h2
+            = pluralize(@registration.errors.count, "error")
+            prohibited this registration from being saved:
+          %ul
+            - @registration.errors.full_messages.each do |message|
+              %li= message
+      .field
+        = f.hidden_field :course_id, value: @course.id
+      .field
+        = f.label :full_name
+        = f.text_field :full_name
+      .field
+        = f.label :shirtsize
+        %select{ :shirtsize => "question[question_status]" }
+          %option{:value => 1}= "S"
+          %option{:value => 2}= "M"
+          %option{:value => 3}= "L"
+          %option{:value => 4}= "XL"
+          %option{:value => 5}= "2XL"
+          %option{:value => 6}= "3XL"
+      .field
+        = f.label :telephone
+        = f.text_field :telephone
+      .actions
+        %script.stripe-button{ src: "https://checkout.stripe.com/checkout.js",
+              data: {amount: @course.price*100, description: @course.name, key: Rails.application.secrets.stripe_publishable_key}}
