@@ -1,0 +1,521 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Circular-book', arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'Circular-book', arial, sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  color: #3E4041;
+}
+
+h3 {
+  font-size: 22px;
+  color: #3E4041;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #3E4041;
+  letter-spacing: .4px;
+}
+
+p {
+  font-size: 18px;
+  color: #7F878A;
+  font-weight: 300;
+  line-height: 140%;
+  margin-top: 5px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  // color: #fff;
+}
+
+.super-small {
+  font-size: 38px;
+  vertical-align: top;
+}
+
+.btn-ghost {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 50px;
+  text-transform: uppercase;
+  font-family: 'Circular-book';
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .46px;
+  background-color: none;
+}
+
+.header svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.center-logo {
+  width: 347px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  margin-top: 200px;
+  width: 347px;
+  height: 99px;
+  background-image: url(image-path('logo.svg'));
+  animation-duration: 1.25s !important;
+  -webkit-animation-duration: 1.25s !important
+}
+
+.center-ticket {
+  width: 210px;
+  margin: 0 auto;
+}
+
+.ticket {
+  position: absolute;
+  width: 212px;
+  top: 0;
+  margin: 0 auto;
+  margin-top: 360px;
+  animation-duration: 2s !important;
+  -webkit-animation-duration: 2s !important
+}
+
+.content {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  top: 0px;
+  z-index: 2;
+  position: relative;
+}
+
+section.intro {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background-color: #fff;
+  z-index: 2;
+  margin: 0;
+  margin-top: -930px;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.anchor-icon {
+  width: 75px;
+  height: 75px;
+  background-image: url(image-path('ic-anchor.svg'));
+  float: left;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.intro-text {
+  float: left;
+  margin-left: 20px;
+  display: inline;
+  width: 500px;
+  margin-top: 60px;
+}
+
+.intro-paragraph {
+  margin-top: -17px;
+}
+
+.intro-video {
+  width: 400px;
+  float: left;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+section.details {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-color: #fbfcfc;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.details .wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.content section.details .wrapper .heading {
+  width: 90px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+section.details .wrapper .dates,
+section.details .wrapper .location,
+section.details .wrapper .crew {
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+}
+
+section.details .wrapper .dates .dates-icon,
+section.details .wrapper .location .dates-icon,
+section.details .wrapper .crew .dates-icon,
+section.details .wrapper .dates .location-icon,
+section.details .wrapper .location .location-icon,
+section.details .wrapper .crew .location-icon,
+section.details .wrapper .dates .crew-icon,
+section.details .wrapper .location .crew-icon,
+section.details .wrapper .crew .crew-icon {
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+
+section.details .wrapper .dates .dates-icon,
+section.details .wrapper .location .dates-icon,
+section.details .wrapper .crew .dates-icon {
+  background-image: url(image-path('ic-dates.svg'));
+}
+
+section.details .wrapper .dates .location-icon,
+section.details .wrapper .location .location-icon,
+section.details .wrapper .crew .location-icon {
+  background-image: url(image-path('ic-location.svg'));
+}
+
+section.details .wrapper .dates .crew-icon,
+section.details .wrapper .location .crew-icon,
+section.details .wrapper .crew .crew-icon {
+  background-image: url(image-path('ic-crew.svg'));
+}
+
+section.details .wrapper .dates h6,
+section.details .wrapper .location h6,
+section.details .wrapper .crew h6 {
+  margin-left: 90px;
+  margin-top: 21px;
+}
+
+section.details .wrapper .dates h5,
+section.details .wrapper .location h5,
+section.details .wrapper .crew h5 {
+  margin-left: 90px;
+  margin-top: -20px;
+}
+
+section.details .wrapper .dates p,
+section.details .wrapper .location p,
+section.details .wrapper .crew p {
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+section.whats-on {
+  width: 100%;
+  height: 700px;
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.whats-on .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+section.whats-on .wrapper .heading {
+  width: 265px;
+  margin: 0 auto;
+  margin-bottom: 80px
+}
+
+section.whats-on .wrapper .whats-on-items {
+  width: 100%;
+}
+
+section.whats-on .wrapper .whats-on-items .item {
+  display: inline;
+  width: 515px;
+  float: left;
+  margin-right: 53px;
+}
+
+section.whats-on .wrapper .whats-on-items .item p {
+  margin-top: -20px;
+}
+
+section.tickets {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: #fbfcfc;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.tickets .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+section.tickets .wrapper .heading {
+  width: 91px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+section.tickets .wrapper .ticket-types {
+  width: 710px;
+  margin: 0 auto;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 303px;
+  width: 307px;
+  float: left;
+  margin-left: -500px;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h6,
+section.tickets .wrapper .ticket-types .all-inclusive h1 {
+  text-align: center
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h6 {
+  padding-top: 33px
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h1 {
+  margin-top: -14px
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -14px;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+section.tickets .wrapper .ticket-types .day-pass {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 260px;
+  width: 235px;
+  margin-right: -21px;
+  margin-top: 20px;
+  float: left;
+}
+
+section.tickets .wrapper .ticket-types .day-pass h6, h1 {
+  text-align: center;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass h6 {
+  padding-top: 33px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass h1 {
+  margin-top: -14px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -34px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 260px;
+  width: 235px;
+  margin-right: -21px;
+  margin-top: 20px;
+  float: left;
+  margin-left: 280px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h6, h1 {
+  text-align: center;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h6 {
+  padding-top: 33px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h1 {
+  margin-top: -14px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -34px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+.detailed-syllabus {
+  z-index: 2;
+  position: relative;
+  margin-top: 1330px;
+  width: 100%;
+}
+
+.wrapper-inside {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #e5e6e7;
+}
+
+.field {
+  width: 411px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.actions {
+  width: 119px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+label {
+  float: left;
+  display: block;
+  margin-bottom: 7px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #e3e5e6;
+  display: block;
+  width: 393px;
+}
+
+select {
+  margin-left: 7px;
+}
+
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(1) {
+  display: block;
+}
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(2) {
+  display: none;
+}
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(3) {
+  display: none;
+}
+
+
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(1) {
+  display: none;
+}
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(2) {
+  display: none;
+}
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(3) {
+  display: block;
+}
+
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(1) {
+  display: none;
+}
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(2) {
+  display: block;
+}
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(3) {
+  display: none;
+}
