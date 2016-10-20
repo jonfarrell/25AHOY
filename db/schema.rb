@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161017225455) do
+ActiveRecord::Schema.define(version: 20161017095842) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "courses", force: true do |t|
     t.string   "name"
@@ -23,15 +26,14 @@ ActiveRecord::Schema.define(version: 20161017225455) do
   create_table "registrations", force: true do |t|
     t.integer  "course_id"
     t.string   "full_name"
-    t.string   "company"
+    t.string   "shirtsize"
     t.string   "email"
     t.string   "telephone"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "card_token"
-    t.string   "shirtsize"
   end
 
-  add_index "registrations", ["course_id"], name: "index_registrations_on_course_id"
+  add_index "registrations", ["course_id"], name: "index_registrations_on_course_id", using: :btree
 
 end
