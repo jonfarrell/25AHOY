@@ -81,6 +81,10 @@ a {
   background-color: none;
 }
 
+.header {
+  height: 630px;
+}
+
 .header svg {
   display: inline-block;
   position: absolute;
@@ -144,7 +148,6 @@ section.intro {
   background-color: #fff;
   z-index: 2;
   margin: 0;
-  margin-top: -930px;
 }
 
 .wrapper {
