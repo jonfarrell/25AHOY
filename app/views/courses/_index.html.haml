@@ -73,7 +73,7 @@
                     = link_to new_registration_path(course_id: course.id), class: "ruby" do
                       .course-name
 
-                      %button.btn-ghost Select
+                      %button.tickets.btn-ghost Select
 
             .multi-day.animated.fadeIn
               %h6 Multi-day
@@ -83,9 +83,12 @@
                   %li{class: "#{"active" if params["course_id"].to_i== course.id}"}
                     = link_to new_registration_path(course_id: course.id), class: "ruby" do
                       .course-name
-                        =course-name
 
-                      %button.btn-ghost Select
+                      %button.tickets.btn-ghost{:type => "button"} Select
+
+
+
+
 
             .all-inclusive.animated.fadeIn
               %h6 Full Time
@@ -96,4 +99,4 @@
                     = link_to new_registration_path(course_id: course.id), class: "ruby" do
                       .course-name
 
-                      %button.btn-ghost Register
+                      %button.tickets.btn-ghost Register
