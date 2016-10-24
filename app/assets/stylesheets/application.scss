@@ -522,3 +522,266 @@ select {
 .ticket-types .all-inclusive ul.course-nav-list li:nth-child(3) {
   display: none;
 }
+
+
+@media screen and (max-width: 2555px){
+  .header {
+    height: 1020px;
+  }
+
+  .center-logo .logo {
+    margin-top: 16%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 22%;
+  }
+}
+
+
+
+@media screen and (max-width: 2000px){
+  .header {
+    height: 850px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 1650px){
+  .header {
+    height: 700px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 21%;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .header {
+    height: 630px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 22%;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .header {
+    height: 530px;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 25%;
+  }
+}
+
+
+
+@media screen and (max-width: 1150px){
+  .header {
+    height: 600px;
+  }
+
+  .header .container svg {
+    width:120%;
+  }
+
+
+  .center-ticket .ticket {
+    margin-top: 28%;
+  }
+
+  .content .intro {
+    height: auto;
+  }
+
+  .content .intro .wrapper {
+    width: 100%;
+  }
+
+  .content .intro .wrapper .intro-text {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content .intro .wrapper .intro-text h3 {
+    text-align: center;
+  }
+
+  .content .intro .wrapper .intro-text .intro-paragraph {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .content .intro .wrapper .anchor-icon {
+    float: initial;
+    margin: 0 auto;
+  }
+
+  .content .intro .wrapper .intro-video {
+    display: none;
+  }
+
+
+  section.details {
+    height: auto;
+  }
+
+  section.details .wrapper {
+    width: 100%;
+  }
+
+  section.details .wrapper .dates {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    float: initial;
+  }
+
+  section.details .wrapper .location {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    float: initial;
+  }
+
+  section.details .wrapper .crew {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    float: initial;
+  }
+
+  section.whats-on {
+    height: auto;
+  }
+
+  section.whats-on .wrapper {
+    width: 100%;
+  }
+
+
+  section.whats-on .wrapper .whats-on-items {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  section.whats-on .wrapper .whats-on-items .items {
+    float: initial;
+    margin: 0 auto;
+  }
+
+  section.whats-on .wrapper .whats-on-items .item {
+    width: 100%;
+  }
+
+  section.whats-on .wrapper .whats-on-items li.item:nth-child(4) {
+    padding-bottom: 70px;
+  }
+
+  section.tickets {
+    height: auto;
+  }
+
+  ul.course-nav-list li {
+    width: 161px;
+    margin-left: -20px;
+  }
+
+  section.tickets .wrapper {
+    width: 100%;
+  }
+
+  .ticket-types {
+    padding-bottom: 450px;
+  }
+
+}
+
+
+@media screen and (max-width: 1000px){
+  .header {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .header {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .header .container svg {
+    width:150%;
+  }
+
+  .center-logo .logo {
+    margin-top: 15%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 32%;
+  }
+
+}
+
+@media screen and (max-width: 575px){
+
+  .center-logo .logo {
+    margin-top: 14%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 40%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 550px){
+  .header .container svg {
+    width:200%;
+  }
+
+  .center-logo .logo {
+    margin-top: 17%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 44%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .header .container svg {
+    width:250%;
+  }
+
+  .center-logo .logo {
+    margin-top: 19%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 50%;
+  }
+}
