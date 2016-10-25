@@ -1,14 +1,15 @@
 !!!
 %html
-%head
-  %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
-  %title AHOY | The Adventure of the Year
-  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-  = javascript_include_tag 'application', 'data-turbolinks-track' => true
-  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
-  %script{:src => "https://js.stripe.com/v2/", :type => "text/javascript"}
-%body
-  %section.content
-    %section.curriculum
-      = render partial: "courses/index"
-      = yield
+  %head
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+    %title AHOY | The Adventure of the Year
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:src => "https://js.stripe.com/v2/", :type => "text/javascript"}
+
+  %body
+    %section.content
+      %section.curriculum
+        = render partial: "courses/index"
+        = yield
