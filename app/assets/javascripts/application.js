@@ -14,20 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-// 
-// $(function() {
-//   var newHash = '',
-//   $mainContent = $(".detailed-syllabus");
 //
-//   $(".tickets").delegate("button", "click", function() {
-//     window.location.hash = $(this).attr("href");
-//     console.log("button test")
-//     return false;
-//   });
-//
-//   $(window).bind('hashchange', function() {
-//     console.log("hash test")
-//     newHash = window.location.hash.substring(1);
-//     $mainContent.load(newHash + "")
-//   });
-// });
+$(function() {
+  var newHash = '',
+  $mainContent = $(".detailed-syllabus");
+
+  $(".tickets").delegate("button", "click", function(ev) {
+    console.log(ev)
+    window.location.href = "/registrations/new" + $(ev.currentTarget).attr("data-href");
+    console.log("button test")
+    return false;
+  });
+});
