@@ -112,7 +112,7 @@ a {
   margin-top: 200px;
   width: 347px;
   height: 99px;
-  background-image: url(image-path('logo.svg'));
+  background-image: url(image-path('http://23ahoy.com/24/images/logo.svg'));
   animation-duration: 1.25s !important;
   -webkit-animation-duration: 1.25s !important
 }
@@ -158,7 +158,7 @@ section.intro {
 .anchor-icon {
   width: 75px;
   height: 75px;
-  background-image: url(image-path('ic-anchor.svg'));
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-anchor.svg'));
   float: left;
   margin-top: 80px;
   margin-left: 20px;
@@ -229,19 +229,19 @@ section.details .wrapper .crew .crew-icon {
 section.details .wrapper .dates .dates-icon,
 section.details .wrapper .location .dates-icon,
 section.details .wrapper .crew .dates-icon {
-  background-image: url(image-path('ic-dates.svg'));
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-dates.svg'));
 }
 
 section.details .wrapper .dates .location-icon,
 section.details .wrapper .location .location-icon,
 section.details .wrapper .crew .location-icon {
-  background-image: url(image-path('ic-location.svg'));
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-location.svg'));
 }
 
 section.details .wrapper .dates .crew-icon,
 section.details .wrapper .location .crew-icon,
 section.details .wrapper .crew .crew-icon {
-  background-image: url(image-path('ic-crew.svg'));
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-crew.svg'));
 }
 
 section.details .wrapper .dates h6,
