@@ -72,9 +72,6 @@
                   %li
                     = link_to new_registration_path(course_id: course.id), id: "tickets" do
                       .course-name
-                      -#
-                      -# %button.tickets.btn-ghost Select
-                      -# <a class="tickets btn-ghost" href="#tickets">Select</a>
 
                       %button.tickets.btn-ghost(data-href="?course_id=1#tickets") Register
 
@@ -83,7 +80,7 @@
               %h1 $110
               %ul.course-nav-list
                 - @courses.each do |course|
-                  %li{class: "#{"active" if params["course_id"].to_i== course.id}"}
+                  %li
                     = link_to new_registration_path(course_id: course.id), class: "ruby" do
                       .course-name
 
@@ -95,8 +92,8 @@
               %h1 $199
               %ul.course-nav-list
                 - @courses.each do |course|
-                  %li{class: "#{"active" if params["course_id"].to_i== course.id}"}
+                  %li
                     = link_to new_registration_path(course_id: course.id), class: "ruby" do
                       .course-name
 
-                      %button.tickets.btn-ghost(data-href="?course_id=2#tickets") Register
+                      %button.tickets.btn-ghost(data-href="?course_id=3#tickets") Register
