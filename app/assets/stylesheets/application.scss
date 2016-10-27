@@ -877,3 +877,15 @@ section.footer .wrapper {
   }
 
 }
+
+@media screen and (max-width: 375px) {
+  .detailed-syllabus {
+    margin-top: 2550px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .detailed-syllabus {
+    margin-top: 2650px;
+  }
+}
