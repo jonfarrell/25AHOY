@@ -16,13 +16,8 @@
 //= require_tree .
 //
 $(function() {
-  var newHash = '',
-  $mainContent = $(".detailed-syllabus");
-
   $(".tickets").delegate("button", "click", function(ev) {
-    console.log(ev)
     window.location.href = "/registrations/new" + $(ev.currentTarget).attr("data-href");
-    console.log("button test")
     return false;
   });
 });
