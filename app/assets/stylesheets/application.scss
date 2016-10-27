@@ -292,7 +292,7 @@ section.whats-on .wrapper .whats-on-items {
 
 section.whats-on .wrapper .whats-on-items .item {
   display: inline;
-  width: 515px;
+  width: 44%;
   float: left;
   margin-right: 53px;
 }
@@ -350,10 +350,13 @@ section.tickets .wrapper .ticket-types .all-inclusive h1 {
   margin-top: -14px
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive ul {
-  width: 185px;
+section.tickets .wrapper .ticket-types .all-inclusive ul,
+section.tickets .wrapper .ticket-types .day-pass ul,
+section.tickets .wrapper .ticket-types .multi-day ul {
+  width: 145px;
   margin: 0 auto;
   margin-top: -14px;
+  padding: 0;
 }
 
 section.tickets .wrapper .ticket-types .all-inclusive ul li {
@@ -843,6 +846,33 @@ section.footer .wrapper {
   .content section.tickets .wrapper .ticket-types .day-pass,
   .content section.tickets .wrapper .ticket-types .multi-day,
   .content section.tickets .wrapper .ticket-types .all-inclusive {
+    width: 90%;
+  }
+
+  .content section.tickets .wrapper .ticket-types .day-pass ul,
+  .content section.tickets .wrapper .ticket-types .multi-day ul,
+  .content section.tickets .wrapper .ticket-types .all-inclusive ul {
+    width: 105px;
+  }
+
+  .detailed-syllabus {
+    margin-top: 2431px;
+  }
+
+  .detailed-syllabus .wrapper-inside {
+    width: 80%;
+    padding:0;
+  }
+
+  .detailed-syllabus .wrapper-inside form {
+    padding: 20px;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field {
+    width: 90%;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field input {
     width: 90%;
   }
 
