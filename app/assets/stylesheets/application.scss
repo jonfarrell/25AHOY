@@ -338,6 +338,12 @@ section.tickets .wrapper .ticket-types .all-inclusive {
   margin-left: -500px;
 }
 
+#tickets > div > div.ticket-types > div.all-inclusive > ul > li > a > button,
+#tickets > div > div.ticket-types > div.day-pass > ul > li > a > button,
+#tickets > div > div.ticket-types > div.multi-day > ul > li > a > button {
+  -webkit-appearance: none;
+}
+
 section.tickets .wrapper .ticket-types .all-inclusive h6,
 section.tickets .wrapper .ticket-types .all-inclusive h1 {
   text-align: center
