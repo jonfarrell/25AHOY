@@ -20,13 +20,7 @@
         = f.text_field :telephone
       .field
         = f.label :shirt_Size
-        %select{ :Shirt_Size => "question[question_status]" }
-          %option{:value => 1}= "S"
-          %option{:value => 2}= "M"
-          %option{:value => 3}= "L"
-          %option{:value => 4}= "XL"
-          %option{:value => 5}= "2XL"
-          %option{:value => 6}= "3XL"
+        = f.select :shirtsize, [["S","S"],["M","M"],["L","L"],["XL","XL"],["2XL","2XL"],["3XL","3XL"]]
       .actions
         %script.stripe-button{ src: "https://checkout.stripe.com/checkout.js",
               data: {amount: @course.price*100, description: @course.name, key: Rails.application.secrets.stripe_publishable_key}}

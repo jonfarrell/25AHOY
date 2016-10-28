@@ -1,7 +1,7 @@
 class Registration < ActiveRecord::Base
   belongs_to :course
 
-def process_payment
+  def process_payment
     customer = Stripe::Customer.create email: email,
                                        card: card_token
 

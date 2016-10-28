@@ -18,8 +18,7 @@ class RegistrationsController < ApplicationController
 
   # POST /registrations
   def create
-    @registration = Registration.new registration_params.merge(email: stripe_params["stripeEmail"],
-                                                               card_token: stripe_params["stripeToken"])
+    @registration = Registration.new(registration_params.merge(email: stripe_params["stripeEmail"], card_token: stripe_params["stripeToken"]))
     raise "Please, check registration errors" unless @registration.valid?
     @registration.process_payment
     @registration.save
@@ -37,6 +36,6 @@ class RegistrationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def registration_params
-      params.require(:registration).permit(:course_id, :full_name, :shirtsize, :email, :telephone)
+      params.require(:registration).permit(:course_id, :full_name, :shirtsize, :telephone)
     end
 end

@@ -1,5 +1,8 @@
 default: &default
   adapter: postgresql
+  user: postgres
+  password: estimate1211
+  host: localhost
   pool: 5
   timeout: 5000
 
