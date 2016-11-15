@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Course.delete_all
 Course.create name: "Day Pass", price: 65
-Course.create name: "Full Time", price: 199
+Course.create name: "Full Time", price: 220
 Course.create name: "Multi-day Pass", price: 110
