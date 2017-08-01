@@ -64,20 +64,9 @@
           .heading
             %h3 Tickets
           .ticket-types
-            .day-pass.animated.fadeIn
-              %h6 Day Pass
-              %h1 $65
-              %ul.course-nav-list
-                - @courses.each do |course|
-                  %li
-                    = link_to new_registration_path(course_id: course.id), id: "tickets" do
-                      .course-name
-
-                      %button.tickets.btn-ticket(data-href="?course_id=1#tickets") Register
-
             .multi-day.animated.fadeIn
-              %h6 Multi-day
-              %h1 $110
+              %h6 Earlybird
+              %h1 $229
               %ul.course-nav-list
                 - @courses.each do |course|
                   %li
@@ -89,7 +78,7 @@
 
             .all-inclusive.animated.fadeIn
               %h6 Full Time
-              %h1 $220
+              %h1 $249
               %ul.course-nav-list
                 - @courses.each do |course|
                   %li
