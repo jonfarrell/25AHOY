@@ -55970,3 +55970,33 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:12:2
 
 
 Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:12:22 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (1.9ms)
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (19.4ms)
+Completed 200 OK in 129ms (Views: 114.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 12:16:40 +1000
