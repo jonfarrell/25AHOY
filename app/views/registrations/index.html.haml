@@ -1,0 +1,22 @@
+%section#tickets
+  %section#ruby
+    %section.detailed-syllabus
+      .wrapper-inside
+        %h3.title Listing registrations
+        %table
+          %thead
+            %tr
+              %th Full name
+              %th Email
+              %th Shirt Size
+              %th Phone Number
+              %th Registration Type
+              %th{:colspan => "4"}
+          %tbody
+            - @registrations.each do |registration|
+              %tr
+                %td= registration.full_name
+                %td= registration.email
+                %td= registration.shirtsize
+                %td= registration.telephone
+                %td= registration.course.name

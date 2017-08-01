@@ -1,0 +1,931 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'europa', arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'europa', arial, sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  color: #3E4041;
+}
+
+h3 {
+  font-size: 22px;
+  color: #3E4041;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #3E4041;
+  letter-spacing: .4px;
+  font-family: 'europa-medium', arial, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #7F878A;
+  font-weight: 300;
+  line-height: 140%;
+  margin-top: 5px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  // color: #fff;
+}
+
+.super-small {
+  font-size: 38px;
+  vertical-align: top;
+}
+
+.btn-ghost {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 50px;
+  text-transform: uppercase;
+  font-family: 'europa';
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .46px;
+  background-color: none;
+}
+
+.btn-ticket {
+  padding: 14px 50px;
+  text-transform: uppercase;
+  font-family: 'europa';
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .46px;
+  background-image: linear-gradient(-180deg, #1490D0 1%, #0E84C1 98%);
+  border: 1px solid #036BA1;
+  box-shadow: inset 0px 2px 0px 0px #209FE1;
+  border-radius: 100px;
+}
+
+
+.header {
+  height: 630px;
+}
+
+.header svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.center-logo {
+  width: 347px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  margin-top: 200px;
+  width: 347px;
+  height: 99px;
+  background-image: url(image-path('http://23ahoy.com/24/images/logo.svg'));
+  animation-duration: 1.25s !important;
+  -webkit-animation-duration: 1.25s !important
+}
+
+.center-ticket {
+  width: 210px;
+  margin: 0 auto;
+}
+
+.ticket {
+  position: absolute;
+  width: 212px;
+  top: 0;
+  margin: 0 auto;
+  margin-top: 360px;
+  animation-duration: 2s !important;
+  -webkit-animation-duration: 2s !important
+}
+
+.content {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  top: 0px;
+  z-index: 2;
+  position: relative;
+}
+
+section.intro {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background-color: #fff;
+  z-index: 2;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.anchor-icon {
+  width: 75px;
+  height: 75px;
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-anchor.svg'));
+  float: left;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.intro-text {
+  float: left;
+  margin-left: 20px;
+  display: inline;
+  width: 500px;
+  margin-top: 60px;
+}
+
+.intro-paragraph {
+  margin-top: -17px;
+}
+
+.intro-video {
+  width: 400px;
+  float: left;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+section.details {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-color: #fbfcfc;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.details .wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.content section.details .wrapper .heading {
+  width: 90px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+section.details .wrapper .dates,
+section.details .wrapper .location,
+section.details .wrapper .crew {
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+}
+
+section.details .wrapper .dates .dates-icon,
+section.details .wrapper .location .dates-icon,
+section.details .wrapper .crew .dates-icon,
+section.details .wrapper .dates .location-icon,
+section.details .wrapper .location .location-icon,
+section.details .wrapper .crew .location-icon,
+section.details .wrapper .dates .crew-icon,
+section.details .wrapper .location .crew-icon,
+section.details .wrapper .crew .crew-icon {
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+
+section.details .wrapper .dates .dates-icon,
+section.details .wrapper .location .dates-icon,
+section.details .wrapper .crew .dates-icon {
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-dates.svg'));
+}
+
+section.details .wrapper .dates .location-icon,
+section.details .wrapper .location .location-icon,
+section.details .wrapper .crew .location-icon {
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-location.svg'));
+}
+
+section.details .wrapper .dates .crew-icon,
+section.details .wrapper .location .crew-icon,
+section.details .wrapper .crew .crew-icon {
+  background-image: url(image-path('http://23ahoy.com/24/images/ic-crew.svg'));
+}
+
+section.details .wrapper .dates h6,
+section.details .wrapper .location h6,
+section.details .wrapper .crew h6 {
+  margin-left: 90px;
+  margin-top: 21px;
+}
+
+section.details .wrapper .dates h5,
+section.details .wrapper .location h5,
+section.details .wrapper .crew h5 {
+  margin-left: 90px;
+  margin-top: -20px;
+}
+
+section.details .wrapper .dates p,
+section.details .wrapper .location p,
+section.details .wrapper .crew p {
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+section.whats-on {
+  width: 100%;
+  height: 700px;
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.whats-on .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+section.whats-on .wrapper .heading {
+  width: 265px;
+  margin: 0 auto;
+  margin-bottom: 80px
+}
+
+section.whats-on .wrapper .whats-on-items {
+  width: 100%;
+}
+
+section.whats-on .wrapper .whats-on-items .item {
+  display: inline;
+  width: 42%;
+  float: left;
+  margin-right: 53px;
+}
+
+section.whats-on .wrapper .whats-on-items .item p {
+  margin-top: -20px;
+}
+
+section.tickets {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: #fbfcfc;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+}
+
+section.tickets .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+section.tickets .wrapper .heading {
+  width: 91px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+section.tickets .wrapper .ticket-types {
+  width: 710px;
+  margin: 0 auto;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 303px;
+  width: 307px;
+  float: left;
+  margin-left: -500px;
+}
+
+#tickets > div > div.ticket-types > div.all-inclusive > ul > li > a > button,
+#tickets > div > div.ticket-types > div.day-pass > ul > li > a > button,
+#tickets > div > div.ticket-types > div.multi-day > ul > li > a > button {
+  -webkit-appearance: none;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h6,
+section.tickets .wrapper .ticket-types .all-inclusive h1 {
+  text-align: center
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h6 {
+  padding-top: 33px
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive h1 {
+  margin-top: -14px
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive ul,
+section.tickets .wrapper .ticket-types .day-pass ul,
+section.tickets .wrapper .ticket-types .multi-day ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -14px;
+  padding: 0;
+}
+
+section.tickets .wrapper .ticket-types .all-inclusive ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+section.tickets .wrapper .ticket-types .day-pass {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 260px;
+  width: 235px;
+  margin-right: -21px;
+  margin-top: 20px;
+  float: left;
+}
+
+section.tickets .wrapper .ticket-types .day-pass h6, h1 {
+  text-align: center;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass h6 {
+  padding-top: 33px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass h1 {
+  margin-top: -14px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -34px;
+}
+
+.content section.tickets .wrapper .ticket-types .day-pass ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day {
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
+  border-radius: 8px;
+  height: 260px;
+  width: 235px;
+  margin-right: -21px;
+  margin-top: 20px;
+  float: left;
+  margin-left: 280px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h6, h1 {
+  text-align: center;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h6 {
+  padding-top: 33px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day h1 {
+  margin-top: -14px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day ul {
+  width: 145px;
+  margin: 0 auto;
+  margin-top: -34px;
+}
+
+.content section.tickets .wrapper .ticket-types .multi-day ul li {
+  font-size: 14px;
+  color: #56667c;
+  letter-spacing: .46px;
+  line-height: 19.6px;
+}
+
+.detailed-syllabus {
+  z-index: 2;
+  position: relative;
+  margin-top: 1330px;
+  width: 100%;
+}
+
+.wrapper-inside {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #e5e6e7;
+}
+
+.field {
+  width: 411px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.actions {
+  width: 119px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+label {
+  float: left;
+  display: block;
+  margin-bottom: 7px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #e3e5e6;
+  display: block;
+  width: 393px;
+}
+
+select {
+  margin-left: 7px;
+}
+
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(1) {
+  display: block;
+}
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(2) {
+  display: none;
+}
+
+.ticket-types .day-pass ul.course-nav-list li:nth-child(3) {
+  display: none;
+}
+
+
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(1) {
+  display: none;
+}
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(2) {
+  display: none;
+}
+
+.ticket-types .multi-day ul.course-nav-list li:nth-child(3) {
+  display: block;
+}
+
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(1) {
+  display: none;
+}
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(2) {
+  display: block;
+}
+
+.ticket-types .all-inclusive ul.course-nav-list li:nth-child(3) {
+  display: none;
+}
+
+
+section.footer {
+  width: 100%;
+  height: 77px;
+  background-color: #3C4C51;
+  overflow: hidden;
+}
+
+section.footer .wrapper {
+  width: 101px;
+  margin-top: 30px;
+}
+
+#copyright {
+  float: left;
+  display:inline;
+  margin-right:5px;
+  font-family: europa;
+  font-size: 12px;
+  color: #C4C9CB;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+
+.ahoy-footer {
+  width: 49px;
+  height: 15px;
+  background-image: url(image-path('http://23ahoy.com/24/images/footer-ahoy.svg'));
+  float:left;
+  display:inline;
+}
+
+
+
+
+@media screen and (max-width: 2555px){
+  .header {
+    height: 1020px;
+  }
+
+  .center-logo .logo {
+    margin-top: 16%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 22%;
+  }
+}
+
+
+
+@media screen and (max-width: 2000px){
+  .header {
+    height: 850px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 1650px){
+  .header {
+    height: 700px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 21%;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .header {
+    height: 630px;
+  }
+
+  .center-logo .logo {
+    margin-top: 13%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 22%;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .header {
+    height: 530px;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 25%;
+  }
+}
+
+
+
+@media screen and (max-width: 1150px){
+  .header {
+    height: 600px;
+  }
+
+  .header .container svg {
+    width:120%;
+  }
+
+
+  .center-ticket .ticket {
+    margin-top: 28%;
+  }
+
+  .content .intro {
+    height: auto;
+  }
+
+  .content .intro .wrapper {
+    width: 100%;
+  }
+
+  .content .intro .wrapper .intro-text {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content .intro .wrapper .intro-text h3 {
+    text-align: center;
+  }
+
+  .content .intro .wrapper .intro-text .intro-paragraph {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .content .intro .wrapper .anchor-icon {
+    float: initial;
+    margin: 0 auto;
+  }
+
+  .content .intro .wrapper .intro-video {
+    display: none;
+  }
+
+
+  section.details {
+    height: auto;
+  }
+
+  section.details .wrapper {
+    width: 100%;
+  }
+
+  section.details .wrapper .dates,
+  section.details .wrapper .location,
+  section.details .wrapper .crew {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    float: initial;
+  }
+
+  section.whats-on {
+    height: auto;
+  }
+
+  section.whats-on .wrapper {
+    width: 100%;
+  }
+
+  section.whats-on .wrapper .heading {
+    width: 100%;
+  }
+
+  section.whats-on .wrapper .heading h3 {
+    text-align: center
+  }
+
+
+  section.whats-on .wrapper .whats-on-items {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  section.whats-on .wrapper .whats-on-items .items {
+    float: initial;
+    margin: 0 auto;
+  }
+
+  section.whats-on .wrapper .whats-on-items .item {
+    width: 100%;
+  }
+
+  section.whats-on .wrapper .whats-on-items li.item:nth-child(4) {
+    padding-bottom: 70px;
+  }
+
+  section.tickets {
+    height: auto;
+  }
+
+  ul.course-nav-list li {
+    width: 161px;
+    margin-left: -20px;
+  }
+
+  section.tickets .wrapper {
+    width: 100%;
+  }
+
+  section.tickets .wrapper .ticket-types {
+    padding-bottom: 450px;
+    width: 100%;
+  }
+
+  .content section.tickets .wrapper .ticket-types .day-pass,
+  .content section.tickets .wrapper .ticket-types .multi-day,
+  .content section.tickets .wrapper .ticket-types .all-inclusive {
+    float: initial;
+    margin:0 auto;
+    height: 303px;
+    width: 307px;
+  }
+
+  .content section.tickets .wrapper .ticket-types .all-inclusive ul,
+  .content section.tickets .wrapper .ticket-types .day-pass ul,
+  .content section.tickets .wrapper .ticket-types .multi-day ul {
+    width: 145px;
+    margin: 0 auto;
+  }
+
+  .detailed-syllabus {
+    margin-top: 2050px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1000px){
+  .header {
+    height: 500px;
+  }
+
+  .detailed-syllabus {
+    margin-top: 2150px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .header {
+    height: 450px;
+  }
+
+  .detailed-syllabus {
+    margin-top: 2250px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .header .container svg {
+    width:150%;
+  }
+
+  .center-logo .logo {
+    margin-top: 15%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 32%;
+  }
+
+}
+
+@media screen and (max-width: 575px){
+
+  .center-logo .logo {
+    margin-top: 14%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 40%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 550px){
+  .header .container svg {
+    width:200%;
+  }
+
+  .center-logo .logo {
+    margin-top: 17%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 44%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header .container svg {
+    width:250%;
+  }
+
+  .center-logo {
+    transform: scale(0.5, 0.5)
+  }
+
+  .center-logo .logo {
+    margin-top: -136%;
+    margin-left: -2%;
+  }
+
+  .center-ticket .ticket {
+    margin-top: 60%;
+  }
+
+  section.details .wrapper .dates,
+  section.details .wrapper .location,
+  section.details .wrapper .crew {
+    width: 80%;
+  }
+
+  .content section.tickets .wrapper .ticket-types .day-pass,
+  .content section.tickets .wrapper .ticket-types .multi-day,
+  .content section.tickets .wrapper .ticket-types .all-inclusive {
+    width: 90%;
+  }
+
+  .content section.tickets .wrapper .ticket-types .day-pass ul,
+  .content section.tickets .wrapper .ticket-types .multi-day ul,
+  .content section.tickets .wrapper .ticket-types .all-inclusive ul {
+    width: 105px;
+  }
+
+  .detailed-syllabus {
+    margin-top: 2431px;
+  }
+
+  .detailed-syllabus .wrapper-inside {
+    width: 80%;
+    padding:0;
+  }
+
+  .detailed-syllabus .wrapper-inside form {
+    padding: 20px;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field {
+    width: 90%;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field input {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .detailed-syllabus {
+    margin-top: 2550px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .detailed-syllabus {
+    margin-top: 2650px;
+  }
+}
