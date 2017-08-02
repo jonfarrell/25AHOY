@@ -3,17 +3,18 @@
   %body
     .header
       .container
-        %svg{:preserveaspectratio => "xMinYMin meet", :viewbox => "0 0 615 615"}
-          %defs
-            %lineargradient#MyGradient
-              %stop{:offset => "5%", "stop-color" => "#3E61FF"}
-              %stop{:offset => "95%", "stop-color" => "#20DCF6"}
-          %path{:d => "M0,225 C275,250 425,215 615,225 L615,00 L0,0 Z", :fill => "url(#MyGradient)", :style => "stroke: none;"}
-      .center-logo
-        .logo.animated.fadeInDown
-      .center-ticket
-        .ticket.animated.fadeInUp
-          %a.btn-ghost.btn-reg{:href => "#tickets"} Get Your Ticket
+        .inner-wrapper
+          .cloud-1
+          .cloud-2
+          .center-logo
+            .logo.animated.fadeInDown
+          .center-ticket
+            .ticket.animated.fadeInUp
+              %a.btn-ghost.btn-reg{:href => "#tickets"} Get Your Ticket
+        .ocean.ocean-one
+        .ocean.ocean-two
+        .ocean.ocean-three
+        .ocean.ocean-four
     .content
       %section.intro
         .wrapper
@@ -59,6 +60,7 @@
             %li.item
               %h6 Return of the swan
               %p Inflatables er'where. The swan will be making his comeback with some new friends. We'll do an inflatable raft up on the water, so bring any pool toys or inflatable animals you might own.
+
       %section.tickets.ruby#tickets
         .wrapper
           .heading
@@ -86,7 +88,6 @@
                       .course-name
 
                       %button.tickets.btn-ticket(data-href="?course_id=2#tickets") Register
-
 
       %section.footer
         .wrapper

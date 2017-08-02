@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="71px" viewBox="0 0 350 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF0070" offset="0%"></stop>
+            <stop stop-color="#FF003D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FF8B64" offset="0%"></stop>
+            <stop stop-color="#FF5334" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M170.347262,43 C170.509328,42.6588446 170.684784,42.3252835 170.872953,41.9999961 L150,42 C142.268014,42 136,35.7319865 136,28 L136,28 L136,28 C136,20.2680135 142.268014,14 150,14 L303,14 C310.731986,14 317,20.2680135 317,28 L317,28 C317,30.5500116 316.318239,32.9407894 315.127047,35.0000039 L336,35 C343.731986,35 350,41.2680135 350,49 C350,56.7319865 343.731986,63 336,63 L296.652741,63 C294.405809,67.729895 289.584792,71 284,71 L131,71 C123.268014,71 117,64.7319865 117,57 C117,49.2680135 123.268014,43 131,43 L131,43 L170.347262,43 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M53.3472623,29 C53.5093276,28.6588446 53.6847842,28.3252835 53.872953,27.9999961 L33,28 C25.2680135,28 19,21.7319865 19,14 L19,14 L19,14 C19,6.2680135 25.2680135,1.42034288e-15 33,0 L186,0 C193.731986,-1.42034288e-15 200,6.2680135 200,14 L200,14 C200,16.5500116 199.318239,18.9407894 198.127047,21.0000039 L219,21 C226.731986,21 233,27.2680135 233,35 C233,42.7319865 226.731986,49 219,49 L179.652741,49 C177.405809,53.729895 172.584792,57 167,57 L14,57 C6.2680135,57 9.46895252e-16,50.7319865 0,43 C-9.46895252e-16,35.2680135 6.2680135,29 14,29 L14,29 L53.3472623,29 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -56258,3 +56258,1789 @@ Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:33:23 
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:33:23 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:44:36 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (10.0ms)
+Completed 500 Internal Server Error in 48ms
+
+Haml::SyntaxError - Inconsistent indentation: 13 spaces used for indentation, but the rest of the document was indented using 2 spaces.:
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/courses/_index.html.haml:68:in `'
+  haml (4.0.7) lib/haml/parser.rb:174:in `block in tabs'
+  haml (4.0.7) lib/haml/parser.rb:152:in `tabs'
+  haml (4.0.7) lib/haml/parser.rb:751:in `block_opened?'
+  haml (4.0.7) lib/haml/parser.rb:388:in `tag'
+  haml (4.0.7) lib/haml/parser.rb:411:in `div'
+  haml (4.0.7) lib/haml/parser.rb:209:in `process_line'
+  haml (4.0.7) lib/haml/parser.rb:121:in `parse'
+  haml (4.0.7) lib/haml/engine.rb:66:in `initialize'
+  haml (4.0.7) lib/haml/template/plugin.rb:25:in `compile'
+  haml (4.0.7) lib/haml/template/plugin.rb:30:in `call'
+  actionview (4.1.6) lib/action_view/template.rb:270:in `compile'
+  actionview (4.1.6) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.6) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.6) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:278:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (4.1.6) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `block in render_with_haml'
+  haml (4.0.7) lib/haml/helpers.rb:89:in `non_haml'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `render_with_haml'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__2199178297513003870_70135096134480'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/f7d141bb0060acda/variables" for 127.0.0.1 at 2017-08-01 12:44:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:44:49 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (5.3ms)
+Completed 500 Internal Server Error in 44ms
+
+Haml::SyntaxError - Inconsistent indentation: 15 spaces used for indentation, but the rest of the document was indented using 2 spaces.:
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/courses/_index.html.haml:69:in `'
+  haml (4.0.7) lib/haml/parser.rb:174:in `block in tabs'
+  haml (4.0.7) lib/haml/parser.rb:152:in `tabs'
+  haml (4.0.7) lib/haml/parser.rb:751:in `block_opened?'
+  haml (4.0.7) lib/haml/parser.rb:388:in `tag'
+  haml (4.0.7) lib/haml/parser.rb:411:in `div'
+  haml (4.0.7) lib/haml/parser.rb:209:in `process_line'
+  haml (4.0.7) lib/haml/parser.rb:121:in `parse'
+  haml (4.0.7) lib/haml/engine.rb:66:in `initialize'
+  haml (4.0.7) lib/haml/template/plugin.rb:25:in `compile'
+  haml (4.0.7) lib/haml/template/plugin.rb:30:in `call'
+  actionview (4.1.6) lib/action_view/template.rb:270:in `compile'
+  actionview (4.1.6) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.6) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.6) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:278:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (4.1.6) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `block in render_with_haml'
+  haml (4.0.7) lib/haml/helpers.rb:89:in `non_haml'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `render_with_haml'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__2199178297513003870_70135096134480'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/6dbbe1ab17c24189/variables" for 127.0.0.1 at 2017-08-01 12:44:49 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (9.2ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 12:44:58 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:47:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (13.7ms)
+Completed 500 Internal Server Error in 55ms
+
+NameError - uninitialized constant ActionView::CompiledTemplates::STRIPE_PUBLISHABLE_KEY:
+  activesupport (4.1.6) lib/active_support/dependencies.rb:519:in `load_missing_constant'
+  activesupport (4.1.6) lib/active_support/dependencies.rb:180:in `const_missing'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/courses/_index.html.haml:93:in `_app_views_courses__index_html_haml___3598370618800530006_70135095659200'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:278:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (4.1.6) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `block in render_with_haml'
+  haml (4.0.7) lib/haml/helpers.rb:89:in `non_haml'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `render_with_haml'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__2199178297513003870_70135096134480'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/09d19ab6f928482d/variables" for 127.0.0.1 at 2017-08-01 12:47:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:48:12 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (10.1ms)
+Completed 500 Internal Server Error in 49ms
+
+Haml::SyntaxError - Illegal nesting: nesting within plain text is illegal.:
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/courses/_index.html.haml:96:in `'
+  haml (4.0.7) lib/haml/parser.rb:255:in `plain'
+  haml (4.0.7) lib/haml/parser.rb:235:in `process_line'
+  haml (4.0.7) lib/haml/parser.rb:121:in `parse'
+  haml (4.0.7) lib/haml/engine.rb:66:in `initialize'
+  haml (4.0.7) lib/haml/template/plugin.rb:25:in `compile'
+  haml (4.0.7) lib/haml/template/plugin.rb:30:in `call'
+  actionview (4.1.6) lib/action_view/template.rb:270:in `compile'
+  actionview (4.1.6) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.6) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.6) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:278:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (4.1.6) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `block in render_with_haml'
+  haml (4.0.7) lib/haml/helpers.rb:89:in `non_haml'
+  haml (4.0.7) lib/haml/helpers/action_view_mods.rb:10:in `render_with_haml'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__2199178297513003870_70135096134480'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/f5305489264f0f59/variables" for 127.0.0.1 at 2017-08-01 12:48:12 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (10.3ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 12:48:24 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (29.6ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:29 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (9.1ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 12:49:39 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (2.0ms)
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (17.7ms)
+Completed 200 OK in 147ms (Views: 129.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 19:18:13 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:53 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:53 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 19:18:53 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (5.2ms)
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (24.3ms)
+Completed 200 OK in 159ms (Views: 144.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-01 20:15:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (5.5ms)
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (16.9ms)
+Completed 200 OK in 131ms (Views: 116.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:52:55 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:55:19 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 82ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:20 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (20.6ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:55:28 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:56:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.3ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (25.1ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:56:02 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:56:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.9ms)
+Completed 200 OK in 152ms (Views: 151.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:57:01 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (12.7ms)
+Completed 200 OK in 157ms (Views: 156.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:22 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:35 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 152ms (Views: 151.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:58:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 143ms (Views: 142.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:05 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:23 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 148ms (Views: 147.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 08:59:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:46 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:46 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 08:59:46 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.9ms)
+Completed 200 OK in 143ms (Views: 142.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:00:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (12.7ms)
+Completed 200 OK in 172ms (Views: 171.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:01:27 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:01:29 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 172ms (Views: 170.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:02:08 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (13.2ms)
+Completed 200 OK in 161ms (Views: 160.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:02:51 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.9ms)
+Completed 200 OK in 164ms (Views: 163.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:03:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 149ms (Views: 148.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:03:11 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:04:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (17.7ms)
+Completed 200 OK in 186ms (Views: 185.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:04:28 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:30 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 156ms (Views: 155.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:04:55 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 152ms (Views: 151.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:05:14 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 165ms (Views: 164.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:05:24 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 164ms (Views: 163.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:05:41 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:05:57 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:57 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:57 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:05:58 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:06:25 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:06:32 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:34 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:34 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:06:34 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.7ms)
+Completed 200 OK in 164ms (Views: 162.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:07:04 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.9ms)
+Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:09:31 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:33 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:33 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:09:33 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (2.7ms)
+  [1m[36mCourse Load (0.9ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (5.9ms)
+Completed 200 OK in 189ms (Views: 140.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:50:08 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:50:09 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:51:10 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 217ms (Views: 216.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:51:11 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/_index.html.haml (0.8ms)
+Completed 200 OK in 172ms (Views: 170.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-03 09:51:46 +1000
