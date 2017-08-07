@@ -70,24 +70,12 @@
               %h6 Earlybird
               %h1 $229
               %ul.course-nav-list
-                - @courses.each do |course|
-                  %li
-                    = link_to new_registration_path(course_id: course.id), class: "ruby" do
-                      .course-name
-
-                      %button.tickets.btn-ticket(data-href="?course_id=3#tickets") Register
-
-
+              %button.tickets.btn-ticket(data-href="?course_id=3") Register
             .all-inclusive.animated.fadeIn
               %h6 Full Time
               %h1 $249
               %ul.course-nav-list
-                - @courses.each do |course|
-                  %li
-                    = link_to new_registration_path(course_id: course.id), class: "ruby" do
-                      .course-name
-
-                      %button.tickets.btn-ticket(data-href="?course_id=2#tickets") Register
+              %button.tickets.btn-ticket(data-href="?course_id=2") Register
 
       %section.footer
         .wrapper
