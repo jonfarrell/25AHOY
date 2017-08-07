@@ -170,14 +170,14 @@ a {
 }
 
 .cloud-1 {
-  background-image: url(image-path('../assets/cloud-1.svg'));
+  background-image: url(image-path('assets/cloud-1.svg'));
   width: 350px;
   height: 71px;
   margin-top: 100px;
 }
 
 .cloud-2 {
-  background-image: url(image-path('../assets/cloud-2.svg'));
+  background-image: url(image-path('assets/cloud-2.svg'));
   width: 398px;
   height: 180px;
   margin-top: 10px;
@@ -194,7 +194,7 @@ a {
   top: 0;
   width: 332px;
   height: 196px;
-  background-image: url(image-path('../assets/logo.png'));
+  background-image: url(image-path('assets/logo.png'));
   animation-duration: 1.25s !important;
   -webkit-animation-duration: 1.25s !important
 }
@@ -362,35 +362,35 @@ section.the-team .team-member:nth-child(7) {
 }
 
 .sam {
-  background-image: url(image-path('../assets/sam.png'));
+  background-image: url(image-path('assets/sam.png'));
 }
 
 .sarah {
-  background-image: url(image-path('../assets/sarah.png'));
+  background-image: url(image-path('assets/sarah.png'));
 }
 
 .emilee {
-  background-image: url(image-path('../assets/emilee.png'));
+  background-image: url(image-path('assets/emilee.png'));
 }
 
 .gus {
-  background-image: url(image-path('../assets/gus.png'));
+  background-image: url(image-path('assets/gus.png'));
 }
 
 .liz {
-  background-image: url(image-path('../assets/liz.png'));
+  background-image: url(image-path('assets/liz.png'));
 }
 
 .jonnie {
-  background-image: url(image-path('../assets/jonnie.png'));
+  background-image: url(image-path('assets/jonnie.png'));
 }
 
 .elvis {
-  background-image: url(image-path('../assets/elvis.png'));
+  background-image: url(image-path('assets/elvis.png'));
 }
 
 .billy {
-  background-image: url(image-path('../assets/billy.png'));
+  background-image: url(image-path('assets/billy.png'));
 }
 
 
@@ -603,7 +603,7 @@ section.footer .wrapper {
 (min-resolution: 192dpi) {
 
   .logo {
-    background-image: url(image-path('../assets/logo@2x.png'));
+    background-image: url(image-path('assets/logo@2x.png'));
     background-size: 332px 196px;
   }
 
@@ -611,35 +611,35 @@ section.footer .wrapper {
     background-size: 100px 100px;
   }
   .sam {
-    background-image: url(image-path('../assets/sam@2x.png'));
+    background-image: url(image-path('assets/sam@2x.png'));
 
   }
 
   .sarah {
-    background-image: url(image-path('../assets/sarah@2x.png'));
+    background-image: url(image-path('assets/sarah@2x.png'));
   }
 
   .emilee {
-    background-image: url(image-path('../assets/emilee@2x.png'));
+    background-image: url(image-path('assets/emilee@2x.png'));
   }
 
   .gus {
-    background-image: url(image-path('../assets/gus@2x.png'));
+    background-image: url(image-path('assets/gus@2x.png'));
   }
 
   .liz {
-    background-image: url(image-path('../assets/liz@2x.png'));
+    background-image: url(image-path('assets/liz@2x.png'));
   }
 
   .jonnie {
-    background-image: url(image-path('../assets/jonnie@2x.png'));
+    background-image: url(image-path('assets/jonnie@2x.png'));
   }
 
   .elvis {
-    background-image: url(image-path('../assets/elvis@2x.png'));
+    background-image: url(image-path('assets/elvis@2x.png'));
   }
 
   .billy {
-    background-image: url(image-path('../assets/billy@2x.png'));
+    background-image: url(image-path('assets/billy@2x.png'));
   }
 }

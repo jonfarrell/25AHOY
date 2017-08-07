@@ -68436,3 +68436,65 @@ Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 20:38:27 +1000
 
 
 Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 20:38:27 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 20:43:24 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (5.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (9.6ms)
+  Rendered courses/_index.html.haml (15.7ms)
+Completed 200 OK in 261ms (Views: 233.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/sam.png" for 127.0.0.1 at 2017-08-07 20:43:25 +1000
+
+
+Started GET "/assets/sarah.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/elvis.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/gus.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/liz.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/jonnie.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/emilee.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
+
+
+Started GET "/assets/billy.png" for 127.0.0.1 at 2017-08-07 20:43:26 +1000
