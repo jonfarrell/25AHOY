@@ -32,17 +32,40 @@ li {
 }
 
 h1 {
-  font-family: Circular-Medium;
+  font-family: Circular;
   font-size: 32px;
   color: #FFFFFF;
   letter-spacing: 0.47px;
 }
 
+h2 {
+font-family: Circular;
+font-size: 32px;
+color: #4B5254;
+letter-spacing: 0.47px;}
+
 h3 {
-  font-family: Circular-Medium;
+  font-family: Circular;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0.23px;
+}
+
+h4 {
+  font-family: Circular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.23px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 10px;
+  color: #3E4041;
+  letter-spacing: .4px;
+  font-family: 'europa-medium', arial, sans-serif;
+  text-align: center;
+  margin-top: -18px;
 }
 
 h6 {
@@ -73,15 +96,14 @@ a {
 }
 
 .btn-ghost {
-  border: 1px solid #fff;
-  border-radius: 100px;
   padding: 14px 50px;
   text-transform: uppercase;
   font-family: 'europa';
   font-size: 12px;
   color: #fff;
   letter-spacing: .46px;
-  background-color: none;
+  background-image: linear-gradient(-180deg, #850065 0%, #7B005D 99%);
+  border-radius: 60px;
 }
 
 .btn-ticket {
@@ -91,10 +113,9 @@ a {
   font-size: 12px;
   color: #fff;
   letter-spacing: .46px;
-  background-image: linear-gradient(-180deg, #1490D0 1%, #0E84C1 98%);
-  border: 1px solid #036BA1;
-  box-shadow: inset 0px 2px 0px 0px #209FE1;
-  border-radius: 100px;
+  background-image: linear-gradient(-180deg, #850065 0%, #7B005D 99%);
+  border-radius: 60px;
+  border: none;
 }
 
 
@@ -144,7 +165,7 @@ a {
 .inner-wrapper {
   width: 1024px;
   margin: 0 auto;
-  height: 600px;
+  height: 550px;
 
 }
 
@@ -171,9 +192,9 @@ a {
 
 .logo {
   top: 0;
-  width: 320px;
-  height: 145px;
-  background-image: url(image-path('lockup.svg'));
+  width: 332px;
+  height: 196px;
+  background-image: url(image-path('logo.png'));
   animation-duration: 1.25s !important;
   -webkit-animation-duration: 1.25s !important
 }
@@ -188,7 +209,7 @@ a {
   width: 212px;
   top: 0;
   margin: 0 auto;
-  margin-top: 360px;
+  margin-top: 430px;
   animation-duration: 2s !important;
   -webkit-animation-duration: 2s !important
 }
@@ -204,13 +225,14 @@ a {
 
 section.intro {
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: block;
   background-color: #000785;
   z-index: 2;
   margin: 0;
   margin-top: -2px;
   overflow: hidden;
+  margin-top: 168px;
 }
 
 .wrapper {
@@ -224,14 +246,21 @@ section.intro {
   margin-top: 150px;
 }
 
-.intro-text h3 {text-align: center;}
+.intro-pg {
+  text-align: center;
+  margin-top: -14px;
+}
+
+.intro-text h1, .intro-text h3 {
+  text-align: center;
+}
 
 .video {
-  width: 449px;
-  height: 250px;
-  background-color: red;
+  width: 700px;
+  height: 400px;
+  background-color: #CED7DA;
   margin: 0 auto;
-  margin-top: -190px;
+  margin-top: -280px;
   background: #3C4C51;
   border-radius: 8px;
   position: relative;
@@ -244,7 +273,7 @@ section.details {
   background-color: #fff;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
   overflow: hidden;
-  margin-top:-60px;
+  margin-top:-120px;
   height: 700px;
 }
 
@@ -252,8 +281,8 @@ section.details h2 {
   width: 100%;
   display: block;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  margin-top: 270px;
+  margin-bottom: 30px;
 }
 
 section.details .wrapper {
@@ -276,7 +305,7 @@ section.details .detail:first-of-type {
 section.details .detail-image {
   width: 75px;
   height: 75px;
-  background-color: red;
+  background-color: #CED7DA;
   border-radius: 100px;
   margin: 0 auto;
   margin-bottom: 21px;
@@ -317,6 +346,11 @@ section.the-team .team-member {
   float: left;
   margin-left: 9%;
   margin-bottom: 9%;
+}
+
+section.the-team .team-member h5 {
+  margin-top: 110px;
+  text-align: center;
 }
 
 section.the-team .team-member:first-of-type {
@@ -364,7 +398,7 @@ section.the-team .team-member:nth-child(7) {
 
 section.tickets {
   width: 100%;
-  height: 100vh;
+  height: 880px;
   display: block;
   background-color: #fff;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
@@ -388,128 +422,65 @@ section.tickets .wrapper .ticket-types {
   margin: 0 auto;
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive {
+section.tickets .wrapper .ticket-types .earlybird, section.tickets .wrapper .ticket-types .full-time  {
   background: #fff;
   box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
   border-radius: 8px;
   height: 303px;
   width: 307px;
   float: left;
-  margin-left: -500px;
+  margin-left: 40px;
 }
 
-#tickets > div > div.ticket-types > div.all-inclusive > ul > li > a > button,
-#tickets > div > div.ticket-types > div.day-pass > ul > li > a > button,
-#tickets > div > div.ticket-types > div.multi-day > ul > li > a > button {
+section.tickets .wrapper .ticket-types .earlybird {
+  margin-left: 28px;
+}
+
+#tickets > div > div.ticket-types > div > ul > li > a > button {
   -webkit-appearance: none;
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive h6,
-section.tickets .wrapper .ticket-types .all-inclusive h1 {
-  text-align: center
+#tickets > div > div.ticket-types > div > ul {
+  margin-bottom: 30px;
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive h6 {
+section.tickets .wrapper .ticket-types div h6,
+section.tickets .wrapper .ticket-types div h1 {
+  text-align: center;
+  color: #56667C;
+}
+
+section.tickets .wrapper .ticket-types h6 {
   padding-top: 33px
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive h1 {
+section.tickets .wrapper .ticket-types h1 {
   margin-top: -14px
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive ul,
-section.tickets .wrapper .ticket-types .day-pass ul,
-section.tickets .wrapper .ticket-types .multi-day ul {
+section.tickets .wrapper .ticket-types ul {
   width: 145px;
   margin: 0 auto;
   margin-top: -14px;
   padding: 0;
 }
 
-section.tickets .wrapper .ticket-types .all-inclusive ul li {
+section.tickets .wrapper .ticket-types ul li {
   font-size: 14px;
   color: #56667c;
   letter-spacing: .46px;
   line-height: 19.6px;
 }
 
-section.tickets .wrapper .ticket-types .day-pass {
-  background: #fff;
-  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
-  border-radius: 8px;
-  height: 260px;
-  width: 235px;
-  margin-right: -21px;
-  margin-top: 20px;
-  float: left;
-}
-
-section.tickets .wrapper .ticket-types .day-pass h6, h1 {
-  text-align: center;
-}
-
-.content section.tickets .wrapper .ticket-types .day-pass h6 {
-  padding-top: 33px;
-}
-
-.content section.tickets .wrapper .ticket-types .day-pass h1 {
-  margin-top: -14px;
-}
-
-.content section.tickets .wrapper .ticket-types .day-pass ul {
-  width: 145px;
+.btn-center {
+  width: 150px;
   margin: 0 auto;
-  margin-top: -34px;
-}
-
-.content section.tickets .wrapper .ticket-types .day-pass ul li {
-  font-size: 14px;
-  color: #56667c;
-  letter-spacing: .46px;
-  line-height: 19.6px;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day {
-  background: #fff;
-  box-shadow: 0 0 8px 0 rgba(163, 163, 163, 0.5);
-  border-radius: 8px;
-  height: 260px;
-  width: 235px;
-  margin-right: -21px;
-  margin-top: 20px;
-  float: left;
-  margin-left: 280px;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day h6, h1 {
-  text-align: center;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day h6 {
-  padding-top: 33px;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day h1 {
-  margin-top: -14px;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day ul {
-  width: 145px;
-  margin: 0 auto;
-  margin-top: -34px;
-}
-
-.content section.tickets .wrapper .ticket-types .multi-day ul li {
-  font-size: 14px;
-  color: #56667c;
-  letter-spacing: .46px;
-  line-height: 19.6px;
 }
 
 .detailed-syllabus {
   z-index: 2;
   position: relative;
-  margin-top: 1330px;
+  margin-top: 1830px;
   width: 100%;
 }
 
@@ -630,6 +601,11 @@ section.footer .wrapper {
 @media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
+
+  .logo {
+    background-image: url(image-path('logo@2x.png'));
+    background-size: 332px 196px;
+  }
 
   section.the-team .team-member {
     background-size: 100px 100px;

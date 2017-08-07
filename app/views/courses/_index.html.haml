@@ -20,7 +20,7 @@
         .wrapper
           .intro-text
             %h1 Welcome to summer
-            %h3 Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet
+            %h4.intro-pg Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet
       .video
 
       %section.details
@@ -41,34 +41,50 @@
         .wrapper
           %h2 The team
           .team-member.sam
+            %h5 Sam Perryman
           .team-member.sarah
-          .team-member.emilee
-          .team-member.gus
-          .team-member.liz
-          .team-member.jonnie
+            %h5 Sarah Schaefer
           .team-member.elvis
+            %h5 Elvis Mousa
+          .team-member.gus
+            %h5 Gus Yates
+          .team-member.liz
+            %h5 Liz Farrell
+          .team-member.jonnie
+            %h5 Jonnie Farrell
+          .team-member.emilee
+            %h5 Emilee Mercedal
           .team-member.billy
+            %h5 Billy Pasco
 
 
 
 
       %section.tickets.ruby#tickets
         .wrapper
-          .heading
-            %h3 Tickets
+          .heading#contact
+            %h2 Tickets
           .ticket-types
-            .multi-day.animated.fadeIn
+            .earlybird.animated.fadeIn
               %h6 Earlybird
               %h1 $229
               %ul.course-nav-list
-              %button.tickets.btn-ticket(data-href="?course_id=3") Register
-            .all-inclusive.animated.fadeIn
+                %li 3 days, 2 nights
+                %li All meals
+                %li AHOY merch pack
+              .btn-center
+                %button.tickets.btn-ticket(data-href="?course_id=3") Register
+            .full-time.animated.fadeIn
               %h6 Full Time
               %h1 $249
               %ul.course-nav-list
-              %button.tickets.btn-ticket(data-href="?course_id=2") Register
+                %li 3 days, 2 nights
+                %li All meals
+                %li AHOY merch pack
+              .btn-center
+                %button.tickets.btn-ticket(data-href="?course_id=2") Register
 
       %section.footer
         .wrapper
-          %span(id="copyright")(c) 2016
+          %span(id="copyright")< &#169; 2017
           .ahoy-footer

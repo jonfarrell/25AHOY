@@ -6,6 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Course.delete_all
-Course.create name: "Day Pass", price: 65
-Course.create name: "Full Time", price: 220
-Course.create name: "Multi-day Pass", price: 110
+Course.create name: "Earlybird", price: 229
+Course.create name: "Full Time", price: 249
+Course.create name: "Earlybird", price: 229
