@@ -32,15 +32,17 @@ li {
 }
 
 h1 {
-  font-size: 55px;
-  color: #3E4041;
+  font-family: Circular-Medium;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0.47px;
 }
 
 h3 {
-  font-size: 22px;
-  color: #3E4041;
-  letter-spacing: .4px;
-  text-transform: uppercase;
+  font-family: Circular-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.23px;
 }
 
 h6 {
@@ -204,9 +206,11 @@ section.intro {
   width: 100%;
   height: 500px;
   display: block;
-  background-color: #fff;
+  background-color: #000785;
   z-index: 2;
   margin: 0;
+  margin-top: -2px;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -214,41 +218,42 @@ section.intro {
   margin: 0 auto;
 }
 
-.anchor-icon {
-  width: 75px;
-  height: 75px;
-  background-image: url(image-path('http://23ahoy.com/24/images/ic-anchor.svg'));
-  float: left;
-  margin-top: 80px;
-  margin-left: 20px;
-}
-
 .intro-text {
-  float: left;
-  margin-left: 20px;
-  display: inline;
   width: 500px;
-  margin-top: 60px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
-.intro-paragraph {
-  margin-top: -17px;
+.intro-text h3 {text-align: center;}
+
+.video {
+  width: 449px;
+  height: 250px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: -190px;
+  background: #3C4C51;
+  border-radius: 8px;
+  position: relative;
 }
 
-.intro-video {
-  width: 400px;
-  float: left;
-  margin-top: 80px;
-  margin-left: 60px;
-}
-
+// Details
 section.details {
   width: 100%;
-  height: 400px;
   display: block;
-  background-color: #fbfcfc;
+  background-color: #fff;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
   overflow: hidden;
+  margin-top:-60px;
+  height: 700px;
+}
+
+section.details h2 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 section.details .wrapper {
@@ -257,114 +262,111 @@ section.details .wrapper {
   margin-top: 80px;
 }
 
-.content section.details .wrapper .heading {
-  width: 90px;
-  margin: 0 auto;
-  margin-bottom: 80px;
+section.details .detail {
+  width: 300px;
+  float: left;
+  margin-left: 6%;
+  text-align: center;
 }
 
-section.details .wrapper .dates,
-section.details .wrapper .location,
-section.details .wrapper .crew {
-    width: 300px;
-    float: left;
-    margin-left: 40px;
+section.details .detail:first-of-type {
+  margin-left: 0;
 }
 
-section.details .wrapper .dates .dates-icon,
-section.details .wrapper .location .dates-icon,
-section.details .wrapper .crew .dates-icon,
-section.details .wrapper .dates .location-icon,
-section.details .wrapper .location .location-icon,
-section.details .wrapper .crew .location-icon,
-section.details .wrapper .dates .crew-icon,
-section.details .wrapper .location .crew-icon,
-section.details .wrapper .crew .crew-icon {
+section.details .detail-image {
   width: 75px;
   height: 75px;
-  float: left;
+  background-color: red;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-bottom: 21px;
 }
 
-section.details .wrapper .dates .dates-icon,
-section.details .wrapper .location .dates-icon,
-section.details .wrapper .crew .dates-icon {
-  background-image: url(image-path('http://23ahoy.com/24/images/ic-dates.svg'));
-}
 
-section.details .wrapper .dates .location-icon,
-section.details .wrapper .location .location-icon,
-section.details .wrapper .crew .location-icon {
-  background-image: url(image-path('http://23ahoy.com/24/images/ic-location.svg'));
-}
 
-section.details .wrapper .dates .crew-icon,
-section.details .wrapper .location .crew-icon,
-section.details .wrapper .crew .crew-icon {
-  background-image: url(image-path('http://23ahoy.com/24/images/ic-crew.svg'));
-}
-
-section.details .wrapper .dates h6,
-section.details .wrapper .location h6,
-section.details .wrapper .crew h6 {
-  margin-left: 90px;
-  margin-top: 21px;
-}
-
-section.details .wrapper .dates h5,
-section.details .wrapper .location h5,
-section.details .wrapper .crew h5 {
-  margin-left: 90px;
-  margin-top: -20px;
-}
-
-section.details .wrapper .dates p,
-section.details .wrapper .location p,
-section.details .wrapper .crew p {
-  margin-left: 90px;
-  margin-top: -30px;
-}
-
-section.whats-on {
+// The the-team
+section.the-team {
   width: 100%;
-  height: 700px;
   display: block;
-  background-color: #fff;
+  background-color: #FFFAF6;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
   overflow: hidden;
+  height: 800px;
 }
 
-section.whats-on .wrapper {
-  width: 1140px;
+section.the-team h2 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 75px;
+}
+
+section.the-team .wrapper {
+  width: 800px;
   margin: 0 auto;
   margin-top: 80px;
 }
 
-section.whats-on .wrapper .heading {
-  width: 265px;
+section.the-team .team-member {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
   margin: 0 auto;
-  margin-bottom: 80px
-}
-
-section.whats-on .wrapper .whats-on-items {
-  width: 100%;
-}
-
-section.whats-on .wrapper .whats-on-items .item {
-  display: inline;
-  width: 42%;
+  margin-bottom: 21px;
   float: left;
-  margin-right: 53px;
+  margin-left: 9%;
+  margin-bottom: 9%;
 }
 
-section.whats-on .wrapper .whats-on-items .item p {
-  margin-top: -20px;
+section.the-team .team-member:first-of-type {
+  margin-left: 0;
 }
+
+section.the-team .team-member:nth-child(7) {
+  margin-left: 0;
+}
+
+.sam {
+  background-image: url(image-path('sam.png'));
+}
+
+.sarah {
+  background-image: url(image-path('sarah.png'));
+}
+
+.emilee {
+  background-image: url(image-path('emilee.png'));
+}
+
+.gus {
+  background-image: url(image-path('gus.png'));
+}
+
+.liz {
+  background-image: url(image-path('liz.png'));
+}
+
+.jonnie {
+  background-image: url(image-path('jonnie.png'));
+}
+
+.elvis {
+  background-image: url(image-path('elvis.png'));
+}
+
+.billy {
+  background-image: url(image-path('billy.png'));
+}
+
+
+// Tickets
 
 section.tickets {
   width: 100%;
   height: 100vh;
   display: block;
-  background-color: #fbfcfc;
+  background-color: #fff;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
   overflow: hidden;
 }
@@ -625,343 +627,43 @@ section.footer .wrapper {
 
 
 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
 
-@media screen and (max-width: 2555px){
-  .header {
-    height: 1020px;
+  section.the-team .team-member {
+    background-size: 100px 100px;
   }
+  .sam {
+    background-image: url(image-path('sam@2x.png'));
 
-  .center-ticket .ticket {
-    margin-top: 22%;
   }
-}
 
-
-
-@media screen and (max-width: 2000px){
-  .header {
-    height: 850px;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 20%;
-  }
-}
-
-@media screen and (max-width: 1650px){
-  .header {
-    height: 700px;
-  }
-
-  .center-logo .logo {
-    margin-top: 13%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 21%;
-  }
-}
-
-@media screen and (max-width: 1440px){
-  .header {
-    height: 630px;
-  }
-
-  .center-logo .logo {
-    margin-top: 13%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 22%;
-  }
-}
-
-@media screen and (max-width: 1250px){
-  .header {
-    height: 530px;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 25%;
-  }
-}
-
-
-
-@media screen and (max-width: 1150px){
-  .header {
-    height: 600px;
-  }
-
-  .header .container svg {
-    width:120%;
-  }
-
-
-  .center-ticket .ticket {
-    margin-top: 28%;
-  }
-
-  .content .intro {
-    height: auto;
-  }
-
-  .content .intro .wrapper {
-    width: 100%;
-  }
-
-  .content .intro .wrapper .intro-text {
-    display: block;
-    float: left;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .content .intro .wrapper .intro-text h3 {
-    text-align: center;
-  }
-
-  .content .intro .wrapper .intro-text .intro-paragraph {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-  }
-
-  .content .intro .wrapper .anchor-icon {
-    float: initial;
-    margin: 0 auto;
-  }
-
-  .content .intro .wrapper .intro-video {
-    display: none;
-  }
-
-
-  section.details {
-    height: auto;
-  }
-
-  section.details .wrapper {
-    width: 100%;
-  }
-
-  section.details .wrapper .dates,
-  section.details .wrapper .location,
-  section.details .wrapper .crew {
-    margin: 0 auto;
-    margin-bottom: 80px;
-    float: initial;
-  }
-
-  section.whats-on {
-    height: auto;
-  }
-
-  section.whats-on .wrapper {
-    width: 100%;
-  }
-
-  section.whats-on .wrapper .heading {
-    width: 100%;
-  }
-
-  section.whats-on .wrapper .heading h3 {
-    text-align: center
-  }
-
-
-  section.whats-on .wrapper .whats-on-items {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0px;
-  }
-
-  section.whats-on .wrapper .whats-on-items .items {
-    float: initial;
-    margin: 0 auto;
-  }
-
-  section.whats-on .wrapper .whats-on-items .item {
-    width: 100%;
+  .sarah {
+    background-image: url(image-path('sarah@2x.png'));
   }
 
-  section.whats-on .wrapper .whats-on-items li.item:nth-child(4) {
-    padding-bottom: 70px;
+  .emilee {
+    background-image: url(image-path('emilee@2x.png'));
   }
 
-  section.tickets {
-    height: auto;
+  .gus {
+    background-image: url(image-path('gus@2x.png'));
   }
 
-  ul.course-nav-list li {
-    width: 161px;
-    margin-left: -20px;
+  .liz {
+    background-image: url(image-path('liz@2x.png'));
   }
 
-  section.tickets .wrapper {
-    width: 100%;
+  .jonnie {
+    background-image: url(image-path('jonnie@2x.png'));
   }
-
-  section.tickets .wrapper .ticket-types {
-    padding-bottom: 450px;
-    width: 100%;
-  }
-
-  .content section.tickets .wrapper .ticket-types .day-pass,
-  .content section.tickets .wrapper .ticket-types .multi-day,
-  .content section.tickets .wrapper .ticket-types .all-inclusive {
-    float: initial;
-    margin:0 auto;
-    height: 303px;
-    width: 307px;
-  }
-
-  .content section.tickets .wrapper .ticket-types .all-inclusive ul,
-  .content section.tickets .wrapper .ticket-types .day-pass ul,
-  .content section.tickets .wrapper .ticket-types .multi-day ul {
-    width: 145px;
-    margin: 0 auto;
-  }
-
-  .detailed-syllabus {
-    margin-top: 2050px;
-  }
-
-
-}
-
-
-@media screen and (max-width: 1000px){
-  .header {
-    height: 500px;
-  }
-
-  .detailed-syllabus {
-    margin-top: 2150px;
-  }
-}
-
-@media screen and (max-width: 850px){
-  .header {
-    height: 450px;
-  }
-
-  .detailed-syllabus {
-    margin-top: 2250px;
-  }
-}
-
-@media screen and (max-width: 700px){
-  .header .container svg {
-    width:150%;
-  }
-
-  .center-logo .logo {
-    margin-top: 15%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 32%;
-  }
-
-}
-
-@media screen and (max-width: 575px){
-
-  .center-logo .logo {
-    margin-top: 14%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 40%;
-  }
-}
-
-
-
-
-@media screen and (max-width: 550px){
-  .header .container svg {
-    width:200%;
-  }
-
-  .center-logo .logo {
-    margin-top: 17%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 44%;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .header .container svg {
-    width:250%;
-  }
-
-  .center-logo {
-    transform: scale(0.5, 0.5)
-  }
-
-  .center-logo .logo {
-    margin-top: -136%;
-    margin-left: -2%;
-  }
-
-  .center-ticket .ticket {
-    margin-top: 60%;
-  }
-
-  section.details .wrapper .dates,
-  section.details .wrapper .location,
-  section.details .wrapper .crew {
-    width: 80%;
-  }
-
-  .content section.tickets .wrapper .ticket-types .day-pass,
-  .content section.tickets .wrapper .ticket-types .multi-day,
-  .content section.tickets .wrapper .ticket-types .all-inclusive {
-    width: 90%;
-  }
-
-  .content section.tickets .wrapper .ticket-types .day-pass ul,
-  .content section.tickets .wrapper .ticket-types .multi-day ul,
-  .content section.tickets .wrapper .ticket-types .all-inclusive ul {
-    width: 105px;
-  }
-
-  .detailed-syllabus {
-    margin-top: 2431px;
-  }
-
-  .detailed-syllabus .wrapper-inside {
-    width: 80%;
-    padding:0;
-  }
-
-  .detailed-syllabus .wrapper-inside form {
-    padding: 20px;
-  }
-
-  .detailed-syllabus .wrapper-inside form .field {
-    width: 90%;
-  }
-
-  .detailed-syllabus .wrapper-inside form .field input {
-    width: 90%;
-  }
-
-}
 
-@media screen and (max-width: 375px) {
-  .detailed-syllabus {
-    margin-top: 2550px;
+  .elvis {
+    background-image: url(image-path('elvis@2x.png'));
   }
-}
 
-@media screen and (max-width: 350px) {
-  .detailed-syllabus {
-    margin-top: 2650px;
+  .billy {
+    background-image: url(image-path('billy@2x.png'));
   }
 }

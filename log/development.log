@@ -58932,3 +58932,3190 @@ Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 10:55:57 +1000
 
 
 Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 10:55:57 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "courses"
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.5ms)[0m  INSERT INTO "courses" ("created_at", "name", "price", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2017-08-07 04:33:09.916663"], ["name", "Day Pass"], ["price", 65], ["updated_at", "2017-08-07 04:33:09.916663"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "courses" ("created_at", "name", "price", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2017-08-07 04:33:09.932995"], ["name", "Full Time"], ["price", 220], ["updated_at", "2017-08-07 04:33:09.932995"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "courses" ("created_at", "name", "price", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2017-08-07 04:33:09.935001"], ["name", "Multi-day Pass"], ["price", 110], ["updated_at", "2017-08-07 04:33:09.935001"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 14:33:56 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (5.5ms)
+  Rendered courses/_index.html.haml (15.6ms)
+Completed 200 OK in 128ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 14:33:57 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 14:33:58 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 14:33:58 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 14:33:58 +1000
+
+
+Started GET "/registrations/new?course_id=2" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2"}
+  [1m[35mCourse Load (1.7ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (32.5ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 105ms (Views: 82.9ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:01 +1000
+
+
+Started GET "/registrations/new?course_id=3" for 127.0.0.1 at 2017-08-07 14:34:04 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3"}
+  [1m[36mCourse Load (0.6ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (3.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:05 +1000
+
+
+Started GET "/registrations/" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+Processing by RegistrationsController#index as HTML
+  [1m[35mRegistration Load (1.4ms)[0m  SELECT "registrations".* FROM "registrations"
+  Rendered registrations/index.html.haml within layouts/application (6.3ms)
+  Rendered courses/_index.html.haml (0.3ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 14:34:14 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (1.0ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 84ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:16:27 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (16.6ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:18:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:18:32 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 189ms (Views: 188.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:18:33 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:36 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:36 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:18:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 156ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:19:13 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (8.2ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:19:38 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:20:09 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (5.1ms)
+Completed 500 Internal Server Error in 162ms
+
+Haml::SyntaxError - The line was indented 2 levels deeper than the previous line.:
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/courses/_index.html.haml:21:in `'
+  haml (5.0.2) lib/haml/parser.rb:140:in `block in call'
+  haml (5.0.2) lib/haml/parser.rb:119:in `call'
+  temple (0.8.0) lib/temple/engine.rb:50:in `block in call'
+  temple (0.8.0) lib/temple/engine.rb:50:in `call'
+  haml (5.0.2) lib/haml/temple_engine.rb:41:in `compile'
+  haml (5.0.2) lib/haml/engine.rb:61:in `initialize'
+  haml (5.0.2) lib/haml/plugin.rb:16:in `compile'
+  haml (5.0.2) lib/haml/plugin.rb:23:in `call'
+  actionview (4.1.6) lib/action_view/template.rb:270:in `compile'
+  actionview (4.1.6) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.6) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.6) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/partial_renderer.rb:278:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (4.1.6) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  haml (5.0.2) lib/haml/helpers/action_view_mods.rb:12:in `block in render'
+  haml (5.0.2) lib/haml/helpers.rb:92:in `non_haml'
+  haml (5.0.2) lib/haml/helpers/action_view_mods.rb:12:in `render'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__1448587510558836692_70096183004360'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/5b3782ec428ae4c5/variables" for 127.0.0.1 at 2017-08-07 18:20:09 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (8.1ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:20:20 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 154ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:20:30 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:20:41 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (15.4ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:20:51 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 141ms (Views: 140.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:21:12 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (8.1ms)
+Completed 200 OK in 155ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:21:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:22:06 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:22:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (7.6ms)
+Completed 200 OK in 153ms (Views: 152.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:22:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (10.1ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:23:01 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:04 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:04 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:04 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 166ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:23:26 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 152ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:23:52 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:56 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:56 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:23:56 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (12.8ms)
+Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:25:28 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.4ms)
+  Rendered courses/_index.html.haml (10.0ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:25:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:26:43 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 147ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:26:44 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:26:51 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:26:59 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 160ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:27:00 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:27:58 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:27:59 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 135ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:12 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:28:13 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:28:13 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:28:13 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 160ms (Views: 159.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:28:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 161ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:28:52 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 142ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:29:07 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 140ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:29:22 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:29:55 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (12.9ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:30:09 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 145ms (Views: 144.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:30:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (9.1ms)
+Completed 200 OK in 53ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:30:47 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 141ms (Views: 140.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:30:56 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 136ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:31:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 145ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:31:08 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:16 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:16 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:16 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 146ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:31:34 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 154ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:31:57 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 138ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:32:23 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:32:33 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:32:34 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:32:38 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 148ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:33:32 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 146ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:33:45 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:34:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 140ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:34:17 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:34:29 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:34:35 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 162ms (Views: 161.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:35:01 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:35:02 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:35:02 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:35:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (10.3ms)
+Completed 200 OK in 170ms (Views: 169.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:36:19 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (8.6ms)
+Completed 200 OK in 153ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:37:29 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:37:37 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:37:47 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:37:48 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 139ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:38:13 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (14.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:38:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (11.1ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:39:06 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:08 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:08 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 149ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:39:35 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:40:25 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:25 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:25 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:25 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:40:26 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 144ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:40:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:40:35 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:40:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 145ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 18:40:40 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 154ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:14 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:18:15 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:18:15 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:18:15 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 151ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:18:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:20:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:20:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 228ms (Views: 227.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:37 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/emilee.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/sam.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/sarah.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/elvis.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/billy.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/liz.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/gus.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/assets/jonnie.png" for 127.0.0.1 at 2017-08-07 19:21:38 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 168ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:21:46 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 204ms (Views: 203.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:23:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 177ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:23:53 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:55 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:23:55 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:25:59 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 168ms (Views: 167.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:26:00 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 150ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:26:23 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 178ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:26:39 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 272ms (Views: 271.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:27:34 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:36 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:36 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:27:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 174ms (Views: 173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:28:37 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:28:38 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:43 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:43 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:28:43 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 149ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/lockup.svg" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-07 19:29:20 +1000
