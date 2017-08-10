@@ -10,7 +10,9 @@
             .logo.animated.fadeInDown
           .center-ticket
             .ticket.animated.fadeInUp
-              %a.btn-ghost.btn-reg{:href => "#tickets"} Get Your Ticket
+              %a.btn-ghost.btn-reg{:href => "javascript:void(0);", :onclick => "window.scroll(0,5000);"} Get your ticket
+              .top
+
         .ocean.ocean-one
         .ocean.ocean-two
         .ocean.ocean-three
@@ -73,7 +75,7 @@
                 %li All meals
                 %li AHOY merch pack
               .btn-center
-                %button.tickets.btn-ticket(data-href="?course_id=3") Register
+                %button.tickets.btn-ticket(data-href="?course_id=3&scroll=5000") Register
             .full-time.animated.fadeIn
               %h6 Full Time
               %h1 $249
@@ -82,7 +84,7 @@
                 %li All meals
                 %li AHOY merch pack
               .btn-center
-                %button.tickets.btn-ticket(data-href="?course_id=2") Register
+                %button.tickets.btn-ticket(data-href="?course_id=2&scroll=5000") Register
 
       %section.footer
         .wrapper

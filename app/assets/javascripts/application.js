@@ -21,3 +21,13 @@ $(function() {
     return false;
   });
 });
+
+$(function() {
+    var url = window.location.href;
+
+    if (url.search('scroll=5000') != -1) {
+        $('html, body').animate({
+            scrollTop: $('#tickets').offset().top
+        }, 0);
+    }
+});
