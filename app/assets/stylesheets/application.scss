@@ -140,6 +140,7 @@ a {
 }
 
 
+// Header
 .header {
   height: 630px;
 }
@@ -195,7 +196,6 @@ a {
   width: 1024px;
   margin: 0 auto;
   height: 550px;
-
 }
 
 .cloud-1 {
@@ -288,12 +288,15 @@ section.intro {
 .video {
   width: 700px;
   height: 400px;
-  background-color: #CED7DA;
   margin: 0 auto;
   margin-top: -280px;
   background: #3C4C51;
   border-radius: 8px;
   position: relative;
+}
+
+.video iframe {
+  height: 400px;
 }
 
 // Details
@@ -788,12 +791,177 @@ section.footer .wrapper {
     background-image: url(image-path('../assets/history-5@2x.png'));
     background-size: 449px 215px;
   }
+}
+
+
+@media only screen and (max-width: 1023px) {
+.inner-wrapper {
+  width: 100%;
+}
+
+.dolphin {
+  margin-right: 50px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+section.details {
+  height: auto;
+}
+
+section.details .wrapper {
+  width: 100%;
+}
+
+section.details .detail, section.details .detail:first-of-type {
+  float: initial;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+section.the-team .wrapper {
+  width: 100%;
+}
+
+section.tickets .wrapper {
+  width: 100%;
+}
+
+.detailed-syllabus {
+  margin-top: 2910px;
+}
+
+}
 
 
 
 
 
+@media only screen and (max-width: 781px) {
+  section.the-team .team-member:first-of-type {
+    margin-left: 9%;
+    margin-bottom: 9%;
+  }
 
+  section.the-team .team-member:nth-child(7) {
+    margin-left: 9%;
+    margin-bottom: 9%;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .inner-wrapper {
+    height: 640px;
+  }
+
+  .cloud-1 {
+    margin-top: 10px;
+    transform: scale(0.5,0.5);
+  }
+
+  .cloud-2 {
+    margin-top: -60px;
+    transform: scale(0.5,0.5);
+    margin-right: -50px;
+  }
+
+  .center-logo{
+    margin-top: 110px;
+  }
+
+  .ticket{
+    margin-top: 450px;
+  }
+
+  .dolphin {
+    margin-top: 170px;
+  }
+
+  .intro-text {
+    width: 80%;
+    margin-top: 110px;
+  }
+
+  section.intro {
+    height: 700px;
+  }
+
+  .video {
+    width: 100%;
+    background: none;
+    margin-top: -330px;
+  }
+
+  .video iframe {
+    height: 300px;
+  }
+
+  section.the-team {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  section.the-team .wrapper {
+    width: 77%;
+    margin: 0 auto;
+  }
+
+  section.the-team .team-member:first-of-type {
+    margin-left: 12%;
+    margin-bottom: 20%;
+  }
+
+  section.the-team .team-member:nth-child(7) {
+    margin-left: 12%;
+    margin-bottom: 20%;
+  }
+
+  section.the-team .team-member {
+    margin-left: 12%;
+    margin-bottom: 20%;
+  }
+
+  section.tickets {
+    height: auto;
+    padding-bottom: 500px;
+  }
+
+  section.tickets .wrapper .ticket-types {
+    width: 76%;
+  }
+
+  section.tickets .wrapper .ticket-types .earlybird, section.tickets .wrapper .ticket-types .full-time {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .detailed-syllabus {
+    width: 90%;
+    margin:0 auto;
+    margin-top: 3531px;
+  }
+
+  .detailed-syllabus .wrapper-inside {
+    width: 90%;
+  }
+
+  .detailed-syllabus .wrapper-inside form {
+    width: 100%;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field {
+    width: 100%;
+  }
+
+  .detailed-syllabus .wrapper-inside form .field input {
+    width: 90%;
+  }
 
 
 }
