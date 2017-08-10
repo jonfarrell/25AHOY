@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="357px" height="157px" viewBox="0 0 357 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFDD5F" offset="0%"></stop>
+            <stop stop-color="#FFB931" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F20068" offset="0%"></stop>
+            <stop stop-color="#DA005E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.3383291%" id="linearGradient-3">
+            <stop stop-color="#850065" offset="0%"></stop>
+            <stop stop-color="#7B005D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20">
+            <circle id="Oval-4" fill="url(#linearGradient-1)" cx="285" cy="72" r="72"></circle>
+            <g id="Group-16" transform="translate(0.000000, 70.000000)">
+                <g id="Page-1" transform="translate(0.000000, 2.000000)" fill="url(#linearGradient-2)">
+                    <path d="M215.800737,77.57995 C219.41742,77.53895 221.788785,73.81145 220.313447,70.51695 C210.74129,49.14845 188.961014,35.99995 163.620181,35.99995 C161.531456,35.99995 159.467286,36.10445 157.43168,36.30645 C154.535127,15.78795 136.875673,-5e-05 115.511338,-5e-05 C102.627188,-5e-05 91.0950975,5.74845 83.3285261,14.80695 C76.6484127,12.34595 69.4270748,10.99995 61.8900227,10.99995 C27.7091905,10.99995 0,38.64645 0,72.74995 C0,73.54645 0.0155351474,74.33895 0.0461043084,75.12745 C0.151342404,77.83895 2.39491837,79.97795 5.11507256,79.94695 L215.800737,77.57995 Z" id="Fill-1"></path>
+                </g>
+                <g id="Page-1" transform="translate(90.000000, 0.000000)" fill="url(#linearGradient-3)">
+                    <path d="M233.632857,84.4238297 C237.548395,84.3792128 240.115711,80.3228861 238.518463,76.7377571 C228.155337,53.4842046 204.575305,39.175791 177.1405,39.175791 C174.879178,39.175791 172.644441,39.2895096 170.440629,39.5093294 C167.304726,17.1807608 148.186031,0 125.05631,0 C111.107513,0 98.6224987,6.25561208 90.2141573,16.1132205 C82.9820505,13.4351199 75.1639966,11.9703806 67.0041402,11.9703806 C29.9988658,11.9703806 0,42.0557558 0,79.1677444 C0,80.0345087 0.016818853,80.8969203 0.0499140154,81.7549789 C0.163848181,84.7056777 2.59281608,87.0333726 5.53774299,86.9996379 L233.632857,84.4238297 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
