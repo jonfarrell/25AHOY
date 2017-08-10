@@ -395,6 +395,12 @@ section.the-team .wrapper {
   margin-top: 80px;
 }
 
+section.the-team .team-member-cont {
+  width: 150px;
+  height: 150px;
+  float:left;
+}
+
 section.the-team .team-member {
   width: 100px;
   height: 100px;
@@ -822,7 +828,7 @@ section.details .detail, section.details .detail:first-of-type {
 }
 
 section.the-team .wrapper {
-  width: 100%;
+  width: 80%;
 }
 
 section.tickets .wrapper {
@@ -871,7 +877,7 @@ section.tickets .wrapper {
     margin-right: -50px;
   }
 
-  .center-logo{
+  .center-logo {
     margin-top: 110px;
   }
 
@@ -880,7 +886,7 @@ section.tickets .wrapper {
   }
 
   .dolphin {
-    margin-top: 170px;
+    margin-top: 210px;
   }
 
   .intro-text {
@@ -912,19 +918,28 @@ section.tickets .wrapper {
     margin: 0 auto;
   }
 
-  section.the-team .team-member:first-of-type {
-    margin-left: 12%;
-    margin-bottom: 20%;
+  section.the-team .team-member-cont {
+    display: block;
+    width: 100%;
+    height: 170px;
+    float: initial;
+    margin: 0 auto;
   }
 
-  section.the-team .team-member:nth-child(7) {
-    margin-left: 12%;
-    margin-bottom: 20%;
+  section.the-team .team-member, section.the-team .team-member:first-of-type, section.the-team .team-member:nth-child(7) {
+    margin: 0 auto;
+    display: block;
+    float: initial;
   }
 
-  section.the-team .team-member {
-    margin-left: 12%;
-    margin-bottom: 20%;
+  section.the-team .team-member h5 {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 110px;
+    width: 100%;
   }
 
   section.tickets {
@@ -933,18 +948,19 @@ section.tickets .wrapper {
   }
 
   section.tickets .wrapper .ticket-types {
-    width: 76%;
+    width: 80%;
   }
 
   section.tickets .wrapper .ticket-types .earlybird, section.tickets .wrapper .ticket-types .full-time {
     margin: 0 auto;
     margin-bottom: 30px;
+    width: 100%;
   }
 
   .detailed-syllabus {
     width: 90%;
     margin:0 auto;
-    margin-top: 3531px;
+    margin-top: 4631px;
   }
 
   .detailed-syllabus .wrapper-inside {
@@ -963,5 +979,39 @@ section.tickets .wrapper {
     width: 90%;
   }
 
+  .center-logo {
+    width: 100%;
+  }
+
+  .logo {
+    background-image: url(image-path('../assets/logo@2x.png'));
+    background-size: 266px 157px;
+    width: 266px;
+    height: 157px;
+    margin: 0 auto;
+  }
+
+  section.history {
+    height: auto;
+  }
+  section.history .wrapper {
+    width: 100%;
+  }
+
+  .photo-pos-1, .photo-pos-2, .photo-pos-3, .photo-pos-4, .photo-pos-5 {
+    width: 215px;
+    height: 215px;
+    float: initial;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .photo-pos-1 {
+    display: none;
+  }
+
+  .photo-pos-5 {
+    background-position-x: -220px;
+  }
 
 }
