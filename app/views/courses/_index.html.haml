@@ -4,7 +4,7 @@
     .header
       .container
         .inner-wrapper
-          .cloud-1
+          .cloud-1.cloud-anim
           .cloud-2
           .center-logo
             .logo.animated.fadeInDown
@@ -12,7 +12,7 @@
             .ticket.animated.fadeInUp
               %a.btn-ghost.btn-reg{:href => "javascript:void(0);", :onclick => "window.scroll(0,5000);"} Get your ticket
               .top
-
+          .dolphin
         .ocean.ocean-one
         .ocean.ocean-two
         .ocean.ocean-three
@@ -21,22 +21,28 @@
       %section.intro
         .wrapper
           .intro-text
-            %h1 Welcome to summer
-            %h4.intro-pg Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet
+            %h1 Welcome to Summer
+            %h4.intro-pg Since 2014, AHOY has been the welcome to summer that we didn't know we needed. 3 days of sunshine, salty hair and great people - what more could you ask for? This year promises to be bigger and better than ever before.
       .video
+        <iframe src="https://player.vimeo.com/video/229133205" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 
       %section.details
         .wrapper
           %h2 The details
           .detail
             .detail-image.detail-image-one
-            %p Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit
+            %h4 8 - 10th December
+            %p This year, AHOY will be taking place over the second weekend of December. Lock your leave in now and put these dates in your diary.
           .detail
             .detail-image.detail-image-two
-            %p Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit
+            %h4 Bigger & better
+            %p This year there are a total of 48 tickets for sale. Don’t miss out on what promises to be the biggest AHOY yet
           .detail
             .detail-image.detail-image-three
-            %p Lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit amet lorem ipsum dolor sit amet consectetur adipscing dolor lorem sit
+            %h4 A killer team
+            %p In order to really take AHOY to the next level, we’ve put together a killer team to make the experience better than ever.
 
 
       %section.the-team
@@ -59,7 +65,13 @@
           .team-member.billy
             %h5 Billy Pasco
 
-
+      %section.history
+        .wrapper
+          .photo-pos-1
+          .photo-pos-2
+          .photo-pos-3
+          .photo-pos-4
+          .photo-pos-5
 
 
       %section.tickets.ruby#tickets

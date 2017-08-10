@@ -162,6 +162,14 @@ a {
   background-color: #F9F3ED;
 }
 
+.dolphin {
+  width:48px;
+  height:60px;
+  background-image: url(image-path('../assets/dolphin.svg'));
+  float: right;
+  margin-top: 150px;
+}
+
 .ocean {
   width: 100%;
   height: 37px;
@@ -192,16 +200,16 @@ a {
 
 .cloud-1 {
   background-image: url(image-path('../assets/cloud-1.svg'));
-  width: 350px;
-  height: 71px;
+  width: 294px;
+  height: 97px;
   margin-top: 100px;
 }
 
 .cloud-2 {
   background-image: url(image-path('../assets/cloud-2.svg'));
-  width: 398px;
-  height: 180px;
-  margin-top: 10px;
+  width: 357px;
+  height: 157px;
+  margin-top: -90px;
   float: right;
 }
 
@@ -209,6 +217,7 @@ a {
 .center-logo {
   width: 347px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .logo {
@@ -230,7 +239,7 @@ a {
   width: 212px;
   top: 0;
   margin: 0 auto;
-  margin-top: 430px;
+  margin-top: 460px;
   animation-duration: 2s !important;
   -webkit-animation-duration: 2s !important
 }
@@ -313,10 +322,21 @@ section.details .wrapper {
 }
 
 section.details .detail {
-  width: 300px;
+  width: 260px;
   float: left;
-  margin-left: 6%;
+  margin-left: 11%;
   text-align: center;
+}
+
+section.details .detail h4 {
+  font-size: 16px;
+  color: #4B5254;
+  letter-spacing: 0.23px;
+}
+
+section.details .detail p {
+  font-size: 14px;
+  margin-top: -14px;
 }
 
 section.details .detail:first-of-type {
@@ -324,12 +344,26 @@ section.details .detail:first-of-type {
 }
 
 section.details .detail-image {
-  width: 75px;
-  height: 75px;
-  background-color: #CED7DA;
-  border-radius: 100px;
   margin: 0 auto;
   margin-bottom: 21px;
+}
+
+.detail-image-one {
+  background-image: url(image-path('../assets/detail-image-one.svg'));
+  width: 40px;
+  height: 41px;
+}
+
+.detail-image-two {
+  background-image: url(image-path('../assets/detail-image-two.svg'));
+  width: 34px;
+  height: 44px;
+}
+
+.detail-image-three {
+  background-image: url(image-path('../assets/detail-image-three.svg'));
+  width: 60px;
+  height: 42px;
 }
 
 
@@ -372,6 +406,7 @@ section.the-team .team-member {
 section.the-team .team-member h5 {
   margin-top: 110px;
   text-align: center;
+  font-size: 14px;
 }
 
 section.the-team .team-member:first-of-type {
@@ -415,13 +450,77 @@ section.the-team .team-member:nth-child(7) {
 }
 
 
+// History
+
+section.history {
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
+  overflow: hidden;
+  height: 800px;
+}
+
+section.history .wrapper {
+  width: 943px;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+.photo-pos-1 {
+  width: 250px;
+  height: 444px;
+  float: left;
+  border-radius: 4px;
+  background-image: url(image-path('../assets/history-1.png'));
+}
+
+.photo-pos-2 {
+  width: 449px;
+  height: 215px;
+  float: left;
+  margin-left:14px;
+  border-radius: 4px;
+  background-image: url(image-path('../assets/history-2.png'));
+}
+.photo-pos-3 {
+  height: 215px;
+  width: 215px;
+  float: left;
+  margin-left: 14px;
+  border-radius: 4px;
+  background-image: url(image-path('../assets/history-3.png'));
+}
+
+.photo-pos-4 {
+  width: 215px;
+  height: 215px;
+  float: left;
+  margin-left: 14px;
+  margin-top: 14px;
+  border-radius: 4px;
+  background-image: url(image-path('../assets/history-4.png'));
+}
+
+.photo-pos-5 {
+  width: 449px;
+  height: 215px;
+  float: left;
+  margin-left: 14px;
+  margin-top: 14px;
+  border-radius: 4px;
+  background-image: url(image-path('../assets/history-5.png'));
+}
+
+
+
 // Tickets
 
 section.tickets {
   width: 100%;
   height: 880px;
   display: block;
-  background-color: #fff;
+  background-color: #FFFAF6;
   box-shadow: 0 1px 4px 0 #cad7dc, 0 -1px 4px 0 #cad7dc;
   overflow: hidden;
 }
@@ -501,7 +600,7 @@ section.tickets .wrapper .ticket-types ul li {
 .detailed-syllabus {
   z-index: 2;
   position: relative;
-  margin-top: 1830px;
+  margin-top: 2620px;
   width: 100%;
 }
 
@@ -663,4 +762,38 @@ section.footer .wrapper {
   .billy {
     background-image: url(image-path('../assets/billy@2x.png'));
   }
+
+
+
+  .photo-pos-1 {
+    background-image: url(image-path('../assets/history-1@2x.png'));
+    background-size: 250px 444px;
+  }
+
+  .photo-pos-2 {
+    background-image: url(image-path('../assets/history-2@2x.png'));
+    background-size: 449px 215px;
+  }
+  .photo-pos-3 {
+    background-image: url(image-path('../assets/history-3@2x.png'));
+    background-size: 215px 215px;
+  }
+
+  .photo-pos-4 {
+    background-image: url(image-path('../assets/history-4@2x.png'));
+    background-size: 215px 215px;
+  }
+
+  .photo-pos-5 {
+    background-image: url(image-path('../assets/history-5@2x.png'));
+    background-size: 449px 215px;
+  }
+
+
+
+
+
+
+
+
 }

@@ -72937,3 +72937,6090 @@ Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 16:56:56 +1000
 
 
 Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 16:56:56 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (1.4ms)
+  Rendered courses/_index.html.haml (28.4ms)
+Completed 200 OK in 499ms (Views: 489.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 17:53:51 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 17:53:52 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (1.2ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 395ms (Views: 385.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:04 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:08:05 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:08:18 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 269ms (Views: 268.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:08:19 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 221ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:08:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 198ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:08:38 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:09:25 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 196ms (Views: 196.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:09:26 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 218ms (Views: 217.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:09:41 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 206ms (Views: 205.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:10:13 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 243ms (Views: 243.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:10:24 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:11:18 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 199ms (Views: 198.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:11:19 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:25 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:25 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:25 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:11:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 200ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:11:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:12:10 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 193ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:10 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:10 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:12:11 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:12:34 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 189ms (Views: 188.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:12:35 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 240ms (Views: 239.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:33 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:18:34 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:18:52 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 219ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:18:53 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:03 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:19:30 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 262ms (Views: 261.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:19:31 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[35mCourse Load (21.0ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (10.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 78ms (Views: 48.5ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:19:44 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[36mCourse Load (0.9ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (2.5ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:19:52 +1000
+
+
+Started GET "/registrations/new?course_id=2&scroll=5000" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2", "scroll"=>"5000"}
+  [1m[35mCourse Load (0.4ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (2.9ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:19:53 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:57 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:57 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:19:57 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 218ms (Views: 217.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:20:25 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:20:26 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (2.3ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:20:30 +1000
+
+
+Started GET "/registrations/new?course_id=2&scroll=5000" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2", "scroll"=>"5000"}
+  [1m[35mCourse Load (0.4ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (3.4ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:20:32 +1000
+
+
+Started GET "/registrations/new?course_id=2&scroll=5000" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2", "scroll"=>"5000"}
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (8.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:21:31 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:21:35 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:37 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:37 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:21:37 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 222ms (Views: 221.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:22:01 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 253ms (Views: 252.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:22:29 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:22:30 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:09 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:09 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:23:16 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 219ms (Views: 218.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:32 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:23:33 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 218ms (Views: 217.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:23:58 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 229ms (Views: 228.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:16 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:24:17 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (2.0ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:24:21 +1000
+
+
+Started GET "/registrations/new?course_id=2&scroll=5000" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2", "scroll"=>"5000"}
+  [1m[36mCourse Load (2.6ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (3.2ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:24:23 +1000
+
+
+Started GET "/registrations/new?course_id=2&scroll=5000" for 127.0.0.1 at 2017-08-10 22:25:56 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"2", "scroll"=>"5000"}
+  [1m[35mCourse Load (1.0ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 2 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (3.2ms)
+  Rendered courses/_index.html.haml (24.1ms)
+Completed 200 OK in 302ms (Views: 300.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:25:57 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:26:01 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (14.2ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:26:15 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (12.9ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:24 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:26:25 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:26 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:26 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:26 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (14.4ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:26:41 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 231ms (Views: 230.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:27:08 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (16.2ms)
+Completed 200 OK in 268ms (Views: 267.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:31:20 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:31:28 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 285ms (Views: 284.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:31:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 252ms (Views: 251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 22:31:49 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 22:31:50 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-10 23:55:34 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[36mCourse Load (3.3ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1[0m
+  Rendered registrations/new.html.haml within layouts/application (41.2ms)
+  Rendered courses/_index.html.haml (0.2ms)
+Completed 200 OK in 510ms (Views: 417.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-10 23:55:35 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-10 23:55:36 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-10 23:55:36 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-10 23:55:36 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-10 23:55:36 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-10 23:55:36 +1000
+
+
+Started GET "/registrations/new?course_id=3&scroll=5000" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"course_id"=>"3", "scroll"=>"5000"}
+  [1m[35mCourse Load (5.7ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = 3 LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (24.8ms)
+  Rendered courses/_index.html.haml (108.7ms)
+Completed 200 OK in 442ms (Views: 407.3ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:47 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:08:48 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:08:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.3ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 115ms (Views: 114.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:08:52 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (38.3ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:09:57 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:10:13 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (57.2ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:10:14 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (41.7ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:10:28 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (1.1ms)
+  Rendered courses/_index.html.haml (0.2ms)
+Completed 200 OK in 142ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:01 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:31:13 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:31:14 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:31:43 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (19.9ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:32:03 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/history-1.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/history-2.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/history-3.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/history-4.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/assets/history-5.png" for 127.0.0.1 at 2017-08-11 00:32:14 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 351ms (Views: 350.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:34:08 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:34:09 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:34:09 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:34:09 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:34:09 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:34:09 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:46:51 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (24.7ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:46:51 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:46:52 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (21.0ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:47:10 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (20.2ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:47:21 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:47:28 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.2ms)
+  Rendered courses/_index.html.haml (20.4ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:47:29 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (17.2ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:47:35 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:47:36 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:47:36 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:47:36 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:47:36 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (19.4ms)
+Completed 200 OK in 91ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/placeholder.jpg" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+ActionController::RoutingError (No route matches [GET] "/placeholder.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Jonniefarrell/.rvm/gems/ruby-2.2.5/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Users/Jonniefarrell/.rvm/gems/ruby-2.2.5/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/Jonniefarrell/.rvm/gems/ruby-2.2.5/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.5ms)
+  Rendered /Users/Jonniefarrell/.rvm/gems/ruby-2.2.5/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (146.9ms)
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:50:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:13 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:13 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:50:13 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (25.7ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/placeholder.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:51:24 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:51:25 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (17.5ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/placeholder.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:52:30 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/placeholder.png" for 127.0.0.1 at 2017-08-11 00:53:01 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:53:02 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (19.4ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/placeholder.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:54:05 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (20.7ms)
+Completed 200 OK in 79ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 00:55:17 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (24.5ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:24 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:06:25 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (21.2ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:06:33 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:06:35 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (15.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:07:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:07:42 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:08:19 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 351ms (Views: 350.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:08:20 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 288ms (Views: 287.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:08:30 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:08:53 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 315ms (Views: 314.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:08:54 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 254ms (Views: 254.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:09:32 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:09:43 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 264ms (Views: 264.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:09:44 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 329ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:12:27 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:12:28 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:12:40 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 273ms (Views: 272.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:12:41 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:44 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:44 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:44 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 320ms (Views: 319.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:12:59 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 263ms (Views: 262.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:13:27 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:13:28 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:50 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:50 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:13:50 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-11 01:14:22 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 310ms (Views: 309.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 01:14:23 +1000
