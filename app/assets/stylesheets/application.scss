@@ -16,12 +16,28 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
+}
+
+// Font definitions
+@font-face {
+  font-family: 'circular-300';
+  src: url('lineto-circular-book.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: 'circular-book-book';
-  src: url('lineto-circular-book-book.ttf') format('truetype')
+  font-family: 'circular-500';
+  src: url('lineto-circular-medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'circular-700';
+  src: url('lineto-circular-bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'circular-900';
+  src: url('lineto-circular-black.ttf') format('truetype')
 }
 
 h1,
@@ -33,31 +49,31 @@ h6,
 p,
 a,
 li {
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
 }
 
 h1 {
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
   font-size: 32px;
   color: #FFFFFF;
   letter-spacing: 0.47px;
 }
 
 h2 {
-font-family: 'circular-book', arial, sans-serif;
+font-family: 'circular-300', arial, sans-serif;
 font-size: 32px;
 color: #4B5254;
 letter-spacing: 0.47px;}
 
 h3 {
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0.23px;
 }
 
 h4 {
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0.23px;
@@ -68,7 +84,7 @@ h5 {
   font-size: 10px;
   color: #3E4041;
   letter-spacing: .4px;
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
   text-align: center;
   margin-top: -18px;
 }
@@ -78,7 +94,7 @@ h6 {
   text-transform: uppercase;
   color: #3E4041;
   letter-spacing: .4px;
-  font-family: 'circular-book', arial, sans-serif;
+  font-family: 'circular-300', arial, sans-serif;
 }
 
 p {
@@ -103,7 +119,7 @@ a {
 .btn-ghost {
   padding: 14px 50px;
   text-transform: uppercase;
-  font-family: 'circular-book';
+  font-family: 'circular-300';
   font-size: 12px;
   color: #fff;
   letter-spacing: .46px;
@@ -114,7 +130,7 @@ a {
 .btn-ticket {
   padding: 14px 50px;
   text-transform: uppercase;
-  font-family: 'circular-book';
+  font-family: 'circular-300';
   font-size: 12px;
   color: #fff;
   letter-spacing: .46px;
@@ -586,7 +602,7 @@ section.footer .wrapper {
   float: left;
   display:inline;
   margin-right:5px;
-  font-family: circular-book;
+  font-family: circular-300;
   font-size: 12px;
   color: #C4C9CB;
   letter-spacing: 0.4px;
