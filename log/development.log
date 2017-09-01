@@ -93819,3 +93819,924 @@ Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-08-11 07:53:06 +100
 
 
 Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-08-11 07:53:06 +1000
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-01 10:37:54 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (5.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (12.4ms)
+  Rendered courses/_index.html.haml (18.5ms)
+Completed 200 OK in 469ms (Views: 449.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:37:55 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:37:56 +1000
+
+
+Started GET "/registrations/new" for 127.0.0.1 at 2017-09-01 10:38:03 +1000
+Processing by RegistrationsController#new as HTML
+  [1m[35mCourse Load (1.4ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" IS NULL LIMIT 1
+  Rendered registrations/new.html.haml within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 45ms
+
+NoMethodError - undefined method `id' for nil:NilClass:
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/registrations/new.html.haml:13:in `block in _app_views_registrations_new_html_haml___2735743069895060111_70332085638480'
+  haml (5.0.2) lib/haml/helpers.rb:382:in `block in capture_haml'
+  haml (5.0.2) lib/haml/helpers.rb:667:in `with_haml_buffer'
+  haml (5.0.2) lib/haml/helpers.rb:378:in `capture_haml'
+  haml (5.0.2) lib/haml/helpers/xss_mods.rb:62:in `capture_haml_with_haml_xss'
+  haml (5.0.2) lib/haml/helpers/action_view_mods.rb:45:in `capture_with_haml'
+  actionview (4.1.6) lib/action_view/helpers/form_helper.rb:434:in `form_for'
+  haml (5.0.2) lib/haml/helpers/action_view_xss_mods.rb:29:in `form_for_with_haml_xss'
+   () Users/Jonniefarrell/Dropbox/Projects/25AHOY/app/views/registrations/new.html.haml:3:in `_app_views_registrations_new_html_haml___2735743069895060111_70332085638480'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.2.0) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+   () Users/Jonniefarrell/.rvm/rubies/ruby-2.2.5/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/c5c818f2ab4bc7fe/variables" for 127.0.0.1 at 2017-09-01 10:38:03 +1000
+  [1m[36mCourse Load (1.0ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-01 10:38:27 +1000
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (21.3ms)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:27 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:27 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:27 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:38:29 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (2.0ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:29 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:29 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:29 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:38:52 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 328ms (Views: 327.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:52 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:52 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:52 +1000
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:54 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:54 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:38:54 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (23.8ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:39:30 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:39:31 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:40:34 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:40:35 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:40:51 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 318ms (Views: 317.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:40:52 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 247ms (Views: 246.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:41:09 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:42:06 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:42:07 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 319ms (Views: 318.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:42:26 +1000
+
+
+Started GET "/registrations/newundefined" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+Processing by RegistrationsController#show as HTML
+  Parameters: {"id"=>"newundefined"}
+  Rendered registrations/show.html.haml within layouts/application (0.1ms)
+  Rendered courses/_index.html.haml (0.1ms)
+Completed 200 OK in 297ms (Views: 296.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/cloud-2.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/cloud-1.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/detail-image-one.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/dolphin.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/lineto-circular-book.ttf" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/detail-image-two.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/detail-image-three.svg" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/sam@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/sarah@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/elvis@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/gus@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/liz@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/jonnie@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/emilee@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/billy@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/history-1@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/history-2@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/history-3@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/history-4@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
+
+
+Started GET "/assets/history-5@2x.png" for 127.0.0.1 at 2017-09-01 10:43:55 +1000
