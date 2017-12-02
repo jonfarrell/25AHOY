@@ -17,6 +17,11 @@
   overflow: hidden;
 }
 
+.header-container {
+  width: 1024px;
+  margin:0 auto;
+}
+
 .left-cloud {
     background-image: url(/images/../assets/cloud-1.svg);
     width: 294px;
@@ -51,7 +56,7 @@ h1 {
 
 h2 {
   font-family: Circular-Medium;
-  font-size: 32px;
+  font-size: 28px;
   color: #FFFFFF;
   letter-spacing: 0.47px;
 }
@@ -87,6 +92,11 @@ h2 {
   background: #F20068;
 }
 
+.sect-wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 section.sect-two {
   width: 100%;
   height: 500px;
@@ -95,7 +105,7 @@ section.sect-two {
 }
 
 .sect-two-heading {
-  width:40%;
+  width:35%;
   padding-top: 200px;
   margin-left: 100px;
 }
