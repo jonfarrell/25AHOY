@@ -158,18 +158,22 @@ section.sect-two {
 
   .grid-one {
     background-image: url(/images/../assets/deets-grid-one@2x.png);
+    background-size: 199px 294px;
   }
 
   .grid-two {
     background-image: url(/images/../assets/deets-grid-two@2x.png);
+    background-size: 342px 140px;
   }
 
   .grid-three {
     background-image: url(/images/../assets/deets-grid-three@2x.png);
+    background-size: 164px 140px;
   }
 
   .grid-four {
     background-image: url(/images/../assets/deets-grid-four@2x.png);
+    background-size: 164px 140px;
   }
 
 }
