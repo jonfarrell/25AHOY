@@ -66,7 +66,7 @@
 }
 
 h1 {
-  font-family: Circular-700;
+  font-family: 'circular-700';
   font-size: 39px;
   color: #3A3D3E;
   letter-spacing: 1.24px;
@@ -76,28 +76,28 @@ h1 {
 }
 
 h2 {
-  font-family: Circular-500;
+  font-family: 'circular-500';
   font-size: 28px;
   color: #FFFFFF;
   letter-spacing: 0.47px;
 }
 
 h3 {
-  font-family: Circular-500;
+  font-family: 'circular-500';
   font-size: 32px;
   color: #4B5254;
   letter-spacing: 0.47px;
 }
 
 h4 {
-  font-family: Circular-500;
+  font-family: 'circular-500';
   font-size: 16px;
   color: #3A3D3E;
   letter-spacing: 0.47px;
 }
 
 p {
-  font-family: Circular-300;
+  font-family: 'circular-300';
   font-size: 14px;
   color: #839094;
 }
@@ -225,7 +225,7 @@ ul.list-two {
 .sect-three ul li {
   list-style-type: none;
   margin-top: 14px;
-  font-family: Circular-Medium;
+  font-family: 'circular-500';
   font-size: 14px;
   color: #3A3D3E;
   letter-spacing: 0.47px;
@@ -330,7 +330,7 @@ section.sect-seven {
 .btn-ghost {
   padding: 14px 50px;
   text-transform: uppercase;
-  font-family: 'circular';
+  font-family: 'circular-300';
   font-size: 12px;
   color: #fff;
   letter-spacing: .46px;
@@ -355,7 +355,7 @@ section.footer .wrapper #copyright {
   float: left;
   display:inline;
   margin-right:5px;
-  font-family: circular-300;
+  font-family: 'circular-300';
   font-size: 12px;
   color: #C4C9CB;
   letter-spacing: 0.4px;
