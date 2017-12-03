@@ -47,22 +47,22 @@
 /*Fonts*/
 @font-face {
   font-family: 'circular-300';
-  src: url('../fonts/lineto-circular-book.ttf') format('truetype')
+  src: url('/fonts/lineto-circular-book.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'circular-500';
-  src: url('../fonts/lineto-circular-medium.ttf') format('truetype')
+  src: url('/fonts/lineto-circular-medium.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'circular-700';
-  src: url('../fonts/lineto-circular-bold.ttf') format('truetype')
+  src: url('/fonts/lineto-circular-bold.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'circular-900';
-  src: url('../fonts/lineto-circular-black.ttf') format('truetype')
+  src: url('/fonts/lineto-circular-black.ttf') format('truetype')
 }
 
 h1 {
