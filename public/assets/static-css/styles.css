@@ -44,8 +44,29 @@
   margin: 0 auto;
 }
 
+/*Fonts*/
+@font-face {
+  font-family: 'circular-300';
+  src: url('../fonts/lineto-circular-book.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'circular-500';
+  src: url('../fonts/lineto-circular-medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'circular-700';
+  src: url('../fonts/lineto-circular-bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'circular-900';
+  src: url('../fonts/lineto-circular-black.ttf') format('truetype')
+}
+
 h1 {
-  font-family: Circular-Bold;
+  font-family: Circular-700;
   font-size: 39px;
   color: #3A3D3E;
   letter-spacing: 1.24px;
@@ -55,28 +76,28 @@ h1 {
 }
 
 h2 {
-  font-family: Circular-Medium;
+  font-family: Circular-500;
   font-size: 28px;
   color: #FFFFFF;
   letter-spacing: 0.47px;
 }
 
 h3 {
-  font-family: Circular-Medium;
+  font-family: Circular-500;
   font-size: 32px;
   color: #4B5254;
   letter-spacing: 0.47px;
 }
 
 h4 {
-  font-family: Circular-Medium;
+  font-family: Circular-500;
   font-size: 16px;
   color: #3A3D3E;
   letter-spacing: 0.47px;
 }
 
 p {
-  font-family: Circular-Book;
+  font-family: Circular-300;
   font-size: 14px;
   color: #839094;
 }
