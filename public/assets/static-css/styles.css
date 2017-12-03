@@ -415,11 +415,25 @@ section.footer .wrapper .ahoy-footer {
   width: 270px;
 }
 
+.sect-six-heading {
+  width: 28%;
+}
+
 
 }
 
 
 @media only screen and (max-width: 767px) {
+  .left-cloud {
+    transform: scale(0.6,0.6);
+    margin-left: -40px;
+  }
+
+  .right-cloud {
+    transform: scale(0.6,0.6)
+    margin-right: -50px;
+  }
+
   .sun {
     margin-right: 20px;
   }
@@ -497,6 +511,38 @@ section.footer .wrapper .ahoy-footer {
     transform: scale(0.8,0.8);
     transform-origin: center;
     margin-left:-20px;
+  }
+
+  section.sect-five {
+    height: 800px;
+  }
+
+  .faq {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .dance-video {
+    width: 300px;
+    margin: 0 auto;
+    float: initial;
+    margin-top: 100px;
+  }
+
+  .dance-video iframe {
+    width: 300px;
+    height: 200px;
+    resize: both;
+    overflow: auto;
+    margin: 0 auto;
+  }
+
+  .sect-six-heading {
+    float: initial;
+    margin:0 auto;
+    width: 90%;
+    margin-top: -340px;
   }
 
 
