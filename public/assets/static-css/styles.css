@@ -527,7 +527,7 @@ section.footer .wrapper .ahoy-footer {
     width: 300px;
     margin: 0 auto;
     float: initial;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .dance-video iframe {
@@ -538,11 +538,19 @@ section.footer .wrapper .ahoy-footer {
     margin: 0 auto;
   }
 
+  section.sect-six {
+    height: 700px;
+  }
+
   .sect-six-heading {
     float: initial;
     margin:0 auto;
     width: 90%;
-    margin-top: -340px;
+    margin-top: -370px;
+  }
+
+  .sect-six-heading h2 {
+    text-align: center;
   }
 
 
